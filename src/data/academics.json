@@ -1,0 +1,56 @@
+{
+  "calendarEvents": [
+    {
+      "title": "Semester Registration",
+      "date": "2024-07-15",
+      "description": "Last date for semester registration and fee payment"
+    },
+    {
+      "title": "Mid-Semester Examinations",
+      "date": "2024-09-15",
+      "description": "Mid-semester examinations for all branches"
+    },
+    {
+      "title": "Technical Fest",
+      "date": "2024-10-20",
+      "description": "Annual technical festival with workshops and competitions"
+    },
+    {
+      "title": "End Semester Examinations",
+      "date": "2024-12-01",
+      "description": "End semester examinations for all branches"
+    },
+    {
+      "title": "Result Declaration",
+      "date": "2024-12-25",
+      "description": "Declaration of end semester results"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "New Course Introduced",
+      "date": "2024-07-01",
+      "description": "Introduction of new elective courses for the upcoming semester"
+    },
+    {
+      "title": "Scholarship Applications Open",
+      "date": "2024-07-10",
+      "description": "Applications for merit-based scholarships are now open"
+    },
+    {
+      "title": "Industry Visit",
+      "date": "2024-08-15",
+      "description": "Industrial visit to major tech companies for final year students"
+    },
+    {
+      "title": "Placement Drive",
+      "date": "2024-09-01",
+      "description": "Campus placement drive for final year students"
+    },
+    {
+      "title": "Research Symposium",
+      "date": "2024-10-01",
+      "description": "Annual research symposium showcasing student and faculty research work"
+    }
+  ]
+} 

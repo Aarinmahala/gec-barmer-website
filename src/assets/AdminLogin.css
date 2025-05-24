@@ -1,0 +1,85 @@
+.admin-login-page .page-hero {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #4338ca, #1e40af);
+  position: relative;
+}
+
+.admin-login-page .page-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-page .page-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.admin-login-page .section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.admin-login-page .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-page .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 1.25rem 1.5rem;
+}
+
+.admin-login-page .btn-primary {
+  padding: 0.75rem 0;
+  font-weight: 500;
+}
+
+/* Google login styles */
+.login-divider {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.login-divider::before,
+.login-divider::after {
+  content: "";
+  display: inline-block;
+  width: 45%;
+  height: 1px;
+  background: #dee2e6;
+  position: relative;
+  vertical-align: middle;
+}
+
+.login-divider span {
+  display: inline-block;
+  padding: 0 10px;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.google-login-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.google-login-container > div {
+  width: 100% !important;
+}
+
+/* Adjust the layout on smaller screens */
+@media (max-width: 768px) {
+  .admin-login-page .section {
+    padding: 2rem 0;
+  }
+} 

@@ -1,0 +1,108 @@
+{
+  "id": "electrical",
+  "name": "Electrical Engineering",
+  "tagline": "Powering innovation through electrical engineering excellence",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/electrical-hero_awp9dj.webp",
+    "title": "Electrical Engineering",
+    "subtitle": "Advancing Power Systems and Control"
+  },
+  "overview": {
+    "introduction": "The Department of Electrical Engineering focuses on developing expertise in power systems, control systems, and electrical machines while emphasizing sustainable energy solutions.",
+    "description": "Our curriculum combines fundamental electrical engineering principles with modern technologies in power electronics, renewable energy, and smart grid systems. Students gain practical experience through hands-on projects and industry collaborations."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in Electrical Engineering",
+      "duration": "4 Years",
+      "description": "Comprehensive program covering power systems, control systems, electrical machines, and power electronics with focus on renewable energy integration."
+    }
+  ],
+  "labs": [
+    {
+      "name": "Power Systems Laboratory",
+      "description": "Advanced facility for studying power generation, transmission, and distribution systems.",
+      "equipment": [
+        "Power System Simulators",
+        "Protection Relays",
+        "Smart Grid Equipment",
+        "Power Quality Analyzers"
+      ]
+    },
+    {
+      "name": "Control Systems Laboratory",
+      "description": "Modern laboratory for studying control systems and automation.",
+      "equipment": [
+        "PLC Systems",
+        "PID Controllers",
+        "Industrial Automation Kits",
+        "Control System Simulators"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "electrical-001",
+      "name": "Dr. Rakesh Kumar",
+      "designation": "Professor & Head",
+      "qualification": "Ph.D. in Power Systems",
+      "specialization": "Power Systems, Renewable Energy",
+      "experience": "20+ years",
+      "email": "rakesh.kumar@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/rakesh-kumar_awp9dj.webp",
+      "bio": "Dr. Rakesh Kumar specializes in power systems with expertise in renewable energy integration and smart grid technologies.",
+      "researchAreas": [
+        "Power Systems",
+        "Renewable Energy",
+        "Smart Grid"
+      ],
+      "courses": [
+        "Power Systems",
+        "Renewable Energy Systems",
+        "Smart Grid Technology"
+      ],
+      "achievements": [
+        "Best Teacher Award 2023",
+        "Research Grant from DST",
+        "Industry Consultancy Projects"
+      ]
+    },
+    {
+      "id": "electrical-002",
+      "name": "Dr. Meera Sharma",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. in Control Systems",
+      "specialization": "Control Systems, Power Electronics",
+      "experience": "15 years",
+      "email": "meera.sharma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/meera-sharma_awp9dj.webp",
+      "bio": "Dr. Meera Sharma focuses on control systems and power electronics with expertise in industrial automation.",
+      "researchAreas": [
+        "Control Systems",
+        "Power Electronics",
+        "Industrial Automation"
+      ],
+      "courses": [
+        "Control Systems",
+        "Power Electronics",
+        "Industrial Automation"
+      ],
+      "achievements": [
+        "Young Scientist Award 2022",
+        "Patent in Power Electronics",
+        "Industry Collaboration Projects"
+      ]
+    }
+  ],
+  "achievements": [
+    "Ranked among top 50 Electrical Engineering departments in India",
+    "Industry partnerships with power sector companies",
+    "State-of-the-art research facilities",
+    "Excellent placement record"
+  ],
+  "contact": {
+    "email": "electrical@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block D, Second Floor, GEC Barmer Campus"
+  }
+} 

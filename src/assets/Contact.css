@@ -1,0 +1,253 @@
+/* Hero Section - reusing styles from About.css */
+.page-hero {
+  position: relative;
+  height: 300px;
+  background: linear-gradient(to right, #1e3a8a, #4338ca);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 700px;
+}
+
+.page-hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.page-hero-content p {
+  font-size: 1.2rem;
+}
+
+/* Contact Form */
+.contact-form-section, 
+.contact-info-section {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.contact-form label {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.contact-form .form-control {
+  border-radius: 4px;
+  border: 1px solid var(--gray-light);
+  padding: 0.75rem 1rem;
+}
+
+.contact-form .form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(30, 58, 138, 0.25);
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .btn-primary {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+/* Contact Info */
+.contact-info-item {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.contact-info-item .icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(30, 58, 138, 0.1);
+  color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.contact-info-item .content {
+  flex-grow: 1;
+}
+
+.contact-info-item h5 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info-item p {
+  margin-bottom: 0;
+  color: var(--text-color);
+}
+
+/* Social Links */
+.social-links h5 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(30, 58, 138, 0.1);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Map */
+.map-section {
+  height: 450px;
+}
+
+.map-container {
+  height: 100%;
+}
+
+/* FAQ Section */
+.faq-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq-item h4 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.faq-item p {
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .page-hero {
+    height: 250px;
+  }
+  
+  .page-hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-form-section, 
+  .contact-info-section {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-hero {
+    height: 200px;
+  }
+  
+  .page-hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .contact-info-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .map-section {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-hero {
+    height: 180px;
+  }
+  
+  .page-hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .page-hero-content p {
+    font-size: 1rem;
+  }
+  
+  .contact-form-section, 
+  .contact-info-section {
+    padding: 1.5rem;
+  }
+  
+  .contact-info-item .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  
+  .contact-info-item h5 {
+    font-size: 1.1rem;
+  }
+  
+  .contact-info-item p {
+    font-size: 0.9rem;
+  }
+  
+  .faq-item {
+    padding: 1.2rem;
+  }
+  
+  .faq-item h4 {
+    font-size: 1.1rem;
+  }
+  
+  .faq-item p {
+    font-size: 0.9rem;
+  }
+  
+  .map-section {
+    height: 300px;
+  }
+  
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+} 

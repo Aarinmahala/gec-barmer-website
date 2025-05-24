@@ -1,0 +1,101 @@
+{
+  "generalInfo": {
+    "title": "College Hostel",
+    "description": "The College Hostel at GEC Barmer provides comfortable and secure accommodation for students. Our hostel facilities are designed to create a conducive environment for academic excellence while ensuring the well-being of our students.",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/IMG_20181213_140520-scaled_awp9dj.webp",
+    "contact": {
+      "warden": "Dr. Jane Smith",
+      "email": "hostel@gecbarmer.ac.in",
+      "phone": "+91-XXXXXXXXXX"
+    }
+  },
+  "facilities": [
+    {
+      "title": "Rooms",
+      "description": "Well-furnished rooms with attached bathrooms",
+      "features": [
+        "Single and double occupancy options",
+        "Study tables and chairs",
+        "Wardrobes",
+        "24/7 water supply"
+      ],
+      "icon": "fas fa-bed"
+    },
+    {
+      "title": "Dining Hall",
+      "description": "Modern dining facility with hygienic food",
+      "features": [
+        "Nutritious meals",
+        "Vegetarian options",
+        "Clean and spacious dining area",
+        "Regular menu updates"
+      ],
+      "icon": "fas fa-utensils"
+    },
+    {
+      "title": "Common Room",
+      "description": "Recreation area for students",
+      "features": [
+        "TV and entertainment facilities",
+        "Indoor games",
+        "Newspapers and magazines",
+        "Comfortable seating"
+      ],
+      "icon": "fas fa-users"
+    },
+    {
+      "title": "Sports Facilities",
+      "description": "Outdoor and indoor sports facilities",
+      "features": [
+        "Basketball court",
+        "Volleyball court",
+        "Table tennis",
+        "Chess and carrom"
+      ],
+      "icon": "fas fa-running"
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Wi-Fi",
+      "description": "High-speed internet connectivity throughout the hostel",
+      "icon": "fas fa-wifi"
+    },
+    {
+      "title": "Laundry",
+      "description": "Regular laundry service for students",
+      "icon": "fas fa-tshirt"
+    },
+    {
+      "title": "Medical",
+      "description": "24/7 medical assistance and first-aid facility",
+      "icon": "fas fa-medkit"
+    },
+    {
+      "title": "Security",
+      "description": "Round-the-clock security with CCTV surveillance",
+      "icon": "fas fa-shield-alt"
+    }
+  ],
+  "rules": [
+    "Students must maintain discipline and follow hostel timings",
+    "Visitors are allowed only during specified hours",
+    "Students must inform the warden before leaving the hostel",
+    "No unauthorized electrical appliances allowed",
+    "Regular room inspection will be conducted",
+    "Students must keep their rooms clean and tidy"
+  ],
+  "fees": {
+    "academicYear": "2024-25",
+    "charges": {
+      "roomRent": "₹30,000 per semester",
+      "messCharges": "₹25,000 per semester",
+      "securityDeposit": "₹5,000 (refundable)",
+      "maintenanceCharges": "₹2,000 per semester"
+    },
+    "paymentSchedule": [
+      "First installment: At the time of admission",
+      "Second installment: Before mid-semester"
+    ]
+  }
+} 

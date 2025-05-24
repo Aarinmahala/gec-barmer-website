@@ -1,0 +1,108 @@
+{
+  "id": "petroleum",
+  "name": "Petroleum Engineering",
+  "tagline": "Shaping the future of energy through innovative petroleum engineering",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/petroleum-hero_awp9dj.webp",
+    "title": "Petroleum Engineering",
+    "subtitle": "Advancing Energy Solutions"
+  },
+  "overview": {
+    "introduction": "The Department of Petroleum Engineering focuses on developing expertise in exploration, production, and reservoir engineering while emphasizing sustainable energy practices.",
+    "description": "Our curriculum combines fundamental petroleum engineering principles with modern technologies in drilling, production optimization, and reservoir management. Students gain practical experience through field visits, industry projects, and state-of-the-art laboratories."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in Petroleum Engineering",
+      "duration": "4 Years",
+      "description": "Comprehensive program covering exploration, drilling, production, and reservoir engineering with focus on sustainable energy practices."
+    }
+  ],
+  "labs": [
+    {
+      "name": "Drilling and Production Laboratory",
+      "description": "Advanced facility for studying drilling operations and production techniques.",
+      "equipment": [
+        "Drilling Simulators",
+        "Production Units",
+        "Well Testing Equipment",
+        "Flow Measurement Systems"
+      ]
+    },
+    {
+      "name": "Reservoir Engineering Laboratory",
+      "description": "Modern laboratory for studying reservoir characteristics and behavior.",
+      "equipment": [
+        "Core Analysis Equipment",
+        "Reservoir Simulators",
+        "PVT Analysis Units",
+        "Enhanced Oil Recovery Systems"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "petroleum-001",
+      "name": "Dr. Rajiv Malhotra",
+      "designation": "Professor & Head",
+      "qualification": "Ph.D. in Petroleum Engineering",
+      "specialization": "Reservoir Engineering, Enhanced Oil Recovery",
+      "experience": "20+ years",
+      "email": "rajiv.malhotra@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/rajiv-malhotra_awp9dj.webp",
+      "bio": "Dr. Rajiv Malhotra specializes in reservoir engineering with expertise in enhanced oil recovery techniques.",
+      "researchAreas": [
+        "Reservoir Engineering",
+        "Enhanced Oil Recovery",
+        "Reservoir Simulation"
+      ],
+      "courses": [
+        "Reservoir Engineering",
+        "Enhanced Oil Recovery",
+        "Reservoir Simulation"
+      ],
+      "achievements": [
+        "Best Teacher Award 2023",
+        "Research Grant from ONGC",
+        "Industry Consultancy Projects"
+      ]
+    },
+    {
+      "id": "petroleum-002",
+      "name": "Dr. Ananya Sharma",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. in Drilling Engineering",
+      "specialization": "Drilling Operations, Well Completion",
+      "experience": "15 years",
+      "email": "ananya.sharma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/ananya-sharma_awp9dj.webp",
+      "bio": "Dr. Ananya Sharma focuses on drilling operations and well completion with expertise in advanced drilling technologies.",
+      "researchAreas": [
+        "Drilling Operations",
+        "Well Completion",
+        "Drilling Fluids"
+      ],
+      "courses": [
+        "Drilling Engineering",
+        "Well Completion",
+        "Drilling Fluids"
+      ],
+      "achievements": [
+        "Young Scientist Award 2022",
+        "Patent in Drilling Technology",
+        "Industry Collaboration Projects"
+      ]
+    }
+  ],
+  "achievements": [
+    "Ranked among top 50 Petroleum Engineering departments in India",
+    "Industry partnerships with leading oil and gas companies",
+    "State-of-the-art research facilities",
+    "Excellent placement record"
+  ],
+  "contact": {
+    "email": "petroleum@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block G, First Floor, GEC Barmer Campus"
+  }
+} 

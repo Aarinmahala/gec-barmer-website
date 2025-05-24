@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "title": "Admissions",
+    "subtitle": "Join GEC Barmer for a transformative educational experience",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/IMG_20181213_140520-scaled_awp9dj.webp"
+  },
+  "currentAdmission": {
+    "title": "REAP-2025",
+    "subtitle": "Applications Open",
+    "notice": {
+      "heading": "Important Notice",
+      "text": "Note:- Fill Application form for B.E. / B.tech. Admission for 2024-25 and contact to 9460394649"
+    },
+    "process": {
+      "title": "Admission Process",
+      "description": "Admissions to B.Tech programs at GEC Barmer are conducted through the Rajasthan Engineering Admission Process (REAP).",
+      "details": "REAP is a centralized admission process for engineering colleges in Rajasthan. Candidates are required to register on the official REAP portal and complete the application process as per the guidelines.",
+      "eligibility": {
+        "title": "Eligibility Criteria",
+        "criteria": [
+          "Passed 10+2 with Physics and Mathematics as compulsory subjects along with one of the subjects from (Chemistry/Biology/Biotechnology).",
+          "Minimum 45% marks (40% for SC/ST/OBC/EWS candidates) in the qualifying examination.",
+          "Valid JEE Main score for the current academic year."
+        ]
+      },
+      "portalLink": "https://www.reapraj.com"
+    },
+    "importantDates": [
+      {
+        "event": "Online Registration Begins",
+        "date": "June 15, 2025"
+      },
+      {
+        "event": "Last Date for Registration",
+        "date": "July 15, 2025"
+      },
+      {
+        "event": "Document Verification",
+        "date": "June 20 - July 20, 2025"
+      },
+      {
+        "event": "First Merit List",
+        "date": "July 25, 2025"
+      },
+      {
+        "event": "Fee Payment Deadline (First Merit)",
+        "date": "August 1, 2025"
+      },
+      {
+        "event": "Second Merit List",
+        "date": "August 5, 2025"
+      },
+      {
+        "event": "Classes Begin",
+        "date": "August 20, 2025"
+      }
+    ]
+  },
+  "documents": {
+    "academic": {
+      "title": "Academic Documents",
+      "items": [
+        "10th Mark Sheet and Certificate",
+        "12th Mark Sheet and Certificate",
+        "JEE Main Score Card",
+        "Transfer Certificate",
+        "Migration Certificate (if applicable)"
+      ]
+    },
+    "personal": {
+      "title": "Personal Documents",
+      "items": [
+        "Passport Size Photographs",
+        "Aadhaar Card",
+        "Domicile Certificate",
+        "Category Certificate (if applicable)",
+        "Income Certificate (if applicable)"
+      ]
+    }
+  },
+  "feeStructure": {
+    "title": "Fee Structure",
+    "subtitle": "Financial Information",
+    "fees": [
+      {
+        "particular": "Tuition Fee",
+        "amount": 35000,
+        "frequency": "Per Semester"
+      },
+      {
+        "particular": "Development Fee",
+        "amount": 5000,
+        "frequency": "Per Semester"
+      },
+      {
+        "particular": "Caution Money (Refundable)",
+        "amount": 5000,
+        "frequency": "One Time"
+      },
+      {
+        "particular": "Examination Fee",
+        "amount": 1500,
+        "frequency": "Per Semester"
+      },
+      {
+        "particular": "Registration Fee",
+        "amount": 1000,
+        "frequency": "Per Semester"
+      },
+      {
+        "particular": "Student Activity Fee",
+        "amount": 1500,
+        "frequency": "Per Year"
+      }
+    ],
+    "totals": {
+      "firstSemester": 49000,
+      "subsequentSemesters": 44000
+    }
+  },
+  "helpDesk": {
+    "title": "Admission Help Desk",
+    "subtitle": "Support",
+    "description": "Our dedicated admission help desk is available to assist you with all queries related to the admission process.",
+    "contact": {
+      "phone": "+91-9460394649",
+      "email": "admissions@gecbarmer.ac.in",
+      "address": "Admission Cell, Administrative Block, GEC Barmer Campus",
+      "timing": "9:00 AM to 5:00 PM (Monday to Saturday)"
+    }
+  }
+} 

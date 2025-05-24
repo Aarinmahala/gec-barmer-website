@@ -1,0 +1,20 @@
+{
+  "years": [
+    {
+      "year": "First Year",
+      "pdf": "/pdfs/syllabus-1st-year.pdf"
+    },
+    {
+      "year": "Second Year",
+      "pdf": "/pdfs/syllabus-2nd-year.pdf"
+    },
+    {
+      "year": "Third Year",
+      "pdf": "/pdfs/syllabus-3rd-year.pdf"
+    },
+    {
+      "year": "Fourth Year",
+      "pdf": "/pdfs/syllabus-4th-year.pdf"
+    }
+  ]
+} 

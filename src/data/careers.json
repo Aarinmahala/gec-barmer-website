@@ -1,0 +1,122 @@
+{
+  "title": "Careers at GEC Barmer",
+  "description": "Join our team and be part of an institution committed to excellence in education and research",
+  "categories": [
+    "Faculty",
+    "Staff",
+    "Research",
+    "Administrative"
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "title": "Assistant Professor - Computer Science",
+      "department": "Computer Science Engineering",
+      "category": "Faculty",
+      "publishDate": "2024-03-20",
+      "lastDate": "2024-04-20",
+      "status": "Active",
+      "qualifications": [
+        "Ph.D. in Computer Science or related field",
+        "Strong research track record",
+        "Passion for teaching and mentoring"
+      ],
+      "responsibilities": [
+        "Teaching undergraduate and postgraduate courses",
+        "Conducting research and publishing papers",
+        "Guiding student projects and research"
+      ],
+      "benefits": [
+        "Competitive salary as per 7th CPC",
+        "Research initiation grant",
+        "Professional development opportunities",
+        "Housing facilities"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Technical Staff - Electronics Lab",
+      "department": "Electronics & Communication",
+      "category": "Staff",
+      "publishDate": "2024-03-15",
+      "lastDate": "2024-04-15",
+      "status": "Active",
+      "qualifications": [
+        "B.Tech/M.Tech in Electronics",
+        "Minimum 2 years experience in lab management",
+        "Knowledge of electronic equipment maintenance"
+      ],
+      "responsibilities": [
+        "Maintaining laboratory equipment",
+        "Assisting in practical sessions",
+        "Inventory management"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health insurance",
+        "Professional development opportunities"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Research Associate - Mechanical Engineering",
+      "department": "Mechanical Engineering",
+      "category": "Research",
+      "publishDate": "2024-03-10",
+      "lastDate": "2024-04-10",
+      "status": "Active",
+      "qualifications": [
+        "Ph.D. in Mechanical Engineering",
+        "Research experience in thermal systems",
+        "Publications in reputed journals"
+      ],
+      "responsibilities": [
+        "Conducting research projects",
+        "Writing research proposals",
+        "Mentoring research students"
+      ],
+      "benefits": [
+        "Research grant opportunities",
+        "Conference travel support",
+        "Collaboration opportunities"
+      ]
+    }
+  ],
+  "faqs": {
+    "general": [
+      {
+        "question": "What is the typical hiring process?",
+        "answer": "The hiring process typically includes application screening, written test (if applicable), presentation/interview, and final selection by the committee."
+      },
+      {
+        "question": "How long does the recruitment process take?",
+        "answer": "The recruitment process usually takes 4-6 weeks from the application deadline to the final offer."
+      }
+    ],
+    "faculty": [
+      {
+        "question": "What is the teaching load?",
+        "answer": "Faculty members typically teach 3-4 courses per semester, including undergraduate and postgraduate courses."
+      },
+      {
+        "question": "Are there opportunities for research funding?",
+        "answer": "Yes, faculty members can apply for research grants and receive support for research initiatives."
+      }
+    ],
+    "benefits": [
+      {
+        "question": "What benefits are provided?",
+        "answer": "Benefits include competitive salary, health insurance, housing facilities, professional development opportunities, and research support."
+      },
+      {
+        "question": "Is there a probation period?",
+        "answer": "Yes, there is a probation period of one year for new faculty members."
+      }
+    ]
+  },
+  "contact": {
+    "email": "careers@gecbarmer.ac.in",
+    "phone": "+91-XXX-XXXXXXX",
+    "address": "Government Engineering College, Barmer, Rajasthan, India"
+  }
+} 

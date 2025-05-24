@@ -1,0 +1,26 @@
+{
+  "principal": {
+    "name": "Dr. Sandeep Rankawat",
+    "position": "Principal",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/305009840_1119703905648281_7765544022572070549_n_1_ajzme6.jpg",
+    "qualifications": "Ph.D in Mechanical Engineering",
+    "experience": "More than 20 years in teaching and research. Before assuming the charge of Principal, Government Engineering College, Barmer, Rajasthan.",
+    "message": "Leading the institution with a vision of academic excellence and innovation. Our commitment is to provide quality technical education and foster research and development activities."
+  },
+  "registrar": {
+    "name": "Mr. Kamal Panwar",
+    "position": "Registrar",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747222365/OIP_leveho.jpg",
+    "qualifications": "B-tech in Electronics & Communication Engineering",
+    "experience": "More than 26 years in teaching and research. Before assuming the charge of Registrar, Government Engineering College, Barmer, Rajasthan.",
+    "message": "It is a matter of great pride to serve as the Registrar of our esteemed institution. With extensive experience in academic administration and a strong commitment to excellence, we ensure smooth functioning of all academic and administrative processes."
+  },
+  "viceChancellor": {
+    "name": "Prof. Ajay Kumar Sharma",
+    "position": "Vice Chancellor",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747737795/vc.jpeg_e2apzr.jpg",
+    "qualifications": "Ph.D in Electronics Engineering",
+    "experience": "Dr Sharma has an experience of more than 35 years of in teaching and research. Before assuming the charge of Vice Chancellor, MBM University, Jodhpur, Rajasthan",
+    "message": "As the Vice Chancellor, I am committed to fostering academic excellence, research innovation, and holistic development of our students. Our institution stands as a beacon of quality technical education, preparing future leaders and innovators."
+  }
+} 

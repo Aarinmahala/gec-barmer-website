@@ -1,0 +1,16 @@
+.syllabus-card {
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease;
+}
+
+.syllabus-card:hover {
+  transform: translateY(-5px);
+}
+
+.view-pdf-btn {
+  transition: background-color 0.3s ease;
+}
+
+.view-pdf-btn:hover {
+  background-color: #0056b3;
+} 

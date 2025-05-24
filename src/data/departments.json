@@ -1,0 +1,382 @@
+{
+  "departments": {
+    "cse": {
+      "id": "cse",
+      "name": "Computer Science Engineering (AI & ML)",
+      "tagline": "Leading the digital transformation with cutting-edge AI and ML technologies",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747061992/colleg_jumkke.jpg",
+        "title": "Computer Science Engineering",
+        "subtitle": "Specialization in AI & Machine Learning"
+      },
+      "overview": {
+        "introduction": "The Department of Computer Science Engineering with specialization in AI & Machine Learning is committed to preparing students for the technological challenges of tomorrow.",
+        "description": "Our program offers a comprehensive curriculum that covers fundamental computer science principles along with specialized courses in artificial intelligence, machine learning, data science, and neural networks. Students gain hands-on experience through projects, internships, and industry collaborations, equipping them with the skills needed to thrive in this rapidly evolving field."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in CSE (AI & ML)",
+          "duration": "4 Years",
+          "description": "A comprehensive undergraduate program that combines core computer science subjects with specialized courses in artificial intelligence and machine learning."
+        }
+      ],
+      "labs": [
+        {
+          "name": "AI & Machine Learning Lab",
+          "description": "Dedicated laboratory equipped with high-performance computing systems and latest AI/ML software tools.",
+          "equipment": [
+            "NVIDIA GPU Servers for Deep Learning",
+            "IBM Watson Workbenches",
+            "Cloud Computing Access (AWS/Azure/Google)",
+            "AI/ML Frameworks and Libraries"
+          ]
+        },
+        {
+          "name": "Computer Networks Lab",
+          "description": "Modern networking lab for practical learning of computer network concepts and protocols.",
+          "equipment": [
+            "Cisco Networking Equipment",
+            "Network Simulation Software",
+            "Wireless Communication Devices",
+            "Network Security Tools"
+          ]
+        }
+      ],
+      "achievements": [
+        "Ranked among top 50 CSE departments in India",
+        "100% placement record for the last 3 years",
+        "Industry partnerships with leading tech companies",
+        "State-of-the-art research facilities"
+      ],
+      "contact": {
+        "email": "cse@gecbarmer.ac.in",
+        "phone": "+91-9460394649",
+        "location": "Block A, First Floor, GEC Barmer Campus"
+      }
+    },
+    "electrical": {
+      "id": "electrical",
+      "name": "Electrical Engineering",
+      "tagline": "Powering the future with innovative electrical solutions",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/electrical-hero_awp9dj.webp",
+        "title": "Electrical Engineering",
+        "subtitle": "Power Systems & Control Engineering"
+      },
+      "overview": {
+        "introduction": "The Department of Electrical Engineering focuses on power systems, control systems, and electrical machines.",
+        "description": "Our program provides a strong foundation in electrical engineering principles while emphasizing practical applications in power systems, control systems, and electrical machines. Students work with modern equipment and software tools to gain hands-on experience in the field."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in Electrical Engineering",
+          "duration": "4 Years",
+          "description": "A comprehensive program covering power systems, control systems, and electrical machines."
+        }
+      ],
+      "labs": [
+        {
+          "name": "Power Systems Lab",
+          "description": "Advanced laboratory for power system analysis and simulation.",
+          "equipment": [
+            "Power System Simulators",
+            "Load Flow Analysis Tools",
+            "Fault Analysis Equipment",
+            "Power Quality Analyzers"
+          ]
+        },
+        {
+          "name": "Control Systems Lab",
+          "description": "Modern laboratory for control system design and implementation.",
+          "equipment": [
+            "PLC Systems",
+            "PID Controllers",
+            "Control System Simulators",
+            "Industrial Automation Equipment"
+          ]
+        }
+      ],
+      "achievements": [
+        "Strong industry-academia collaboration",
+        "Excellent placement record",
+        "Research publications in reputed journals",
+        "Modern laboratory facilities"
+      ],
+      "contact": {
+        "email": "electrical@gecbarmer.ac.in",
+        "phone": "+91-9460394650",
+        "location": "Block B, First Floor, GEC Barmer Campus"
+      }
+    },
+    "mechanical": {
+      "id": "mechanical",
+      "name": "Mechanical Engineering",
+      "tagline": "Designing the future through mechanical innovation",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/mechanical-hero_awp9dj.webp",
+        "title": "Mechanical Engineering",
+        "subtitle": "Design, Manufacturing & Thermal Engineering"
+      },
+      "overview": {
+        "introduction": "The Department of Mechanical Engineering focuses on design, manufacturing, and thermal engineering.",
+        "description": "Our program provides comprehensive training in mechanical systems design, manufacturing processes, and thermal engineering. Students gain practical experience through industry projects and internships."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in Mechanical Engineering",
+          "duration": "4 Years",
+          "description": "A comprehensive program covering mechanical design, manufacturing, and thermal engineering."
+        }
+      ],
+      "labs": [
+        {
+          "name": "CAD/CAM Lab",
+          "description": "Modern laboratory for computer-aided design and manufacturing.",
+          "equipment": [
+            "3D Printers",
+            "CNC Machines",
+            "CAD Software Suites",
+            "Rapid Prototyping Equipment"
+          ]
+        },
+        {
+          "name": "Thermal Engineering Lab",
+          "description": "Advanced laboratory for thermal system analysis and testing.",
+          "equipment": [
+            "Heat Transfer Test Rigs",
+            "Refrigeration Units",
+            "Boiler Systems",
+            "Thermal Analysis Software"
+          ]
+        }
+      ],
+      "achievements": [
+        "Industry partnerships with leading manufacturers",
+        "Research collaborations with national laboratories",
+        "Student projects winning national competitions",
+        "State-of-the-art workshop facilities"
+      ],
+      "contact": {
+        "email": "mechanical@gecbarmer.ac.in",
+        "phone": "+91-9460394651",
+        "location": "Block C, First Floor, GEC Barmer Campus"
+      }
+    },
+    "civil": {
+      "id": "civil",
+      "name": "Civil Engineering",
+      "tagline": "Building tomorrow's infrastructure with sustainable solutions",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/civil-hero_awp9dj.webp",
+        "title": "Civil Engineering",
+        "subtitle": "Infrastructure & Construction Management"
+      },
+      "overview": {
+        "introduction": "The Department of Civil Engineering focuses on infrastructure development and sustainable construction practices.",
+        "description": "Our program provides comprehensive training in structural engineering, transportation, environmental engineering, and construction management. Students gain practical experience through field visits and industry projects."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in Civil Engineering",
+          "duration": "4 Years",
+          "description": "A comprehensive program covering structural engineering, transportation, and environmental engineering."
+        }
+      ],
+      "labs": [
+        {
+          "name": "Structural Engineering Lab",
+          "description": "Advanced laboratory for structural analysis and testing.",
+          "equipment": [
+            "Universal Testing Machine",
+            "Concrete Testing Equipment",
+            "Structural Analysis Software",
+            "Surveying Instruments"
+          ]
+        },
+        {
+          "name": "Environmental Engineering Lab",
+          "description": "Modern laboratory for water and wastewater analysis.",
+          "equipment": [
+            "Water Quality Analyzers",
+            "Air Quality Monitoring Systems",
+            "Soil Testing Equipment",
+            "Environmental Modeling Software"
+          ]
+        }
+      ],
+      "achievements": [
+        "Industry partnerships with leading construction companies",
+        "Research collaborations with government agencies",
+        "Student projects winning national competitions",
+        "State-of-the-art laboratory facilities"
+      ],
+      "contact": {
+        "email": "civil@gecbarmer.ac.in",
+        "phone": "+91-9460394652",
+        "location": "Block D, First Floor, GEC Barmer Campus"
+      }
+    },
+    "chemical": {
+      "id": "chemical",
+      "name": "Chemical Engineering",
+      "tagline": "Transforming raw materials into valuable products",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/chemical-hero_awp9dj.webp",
+        "title": "Chemical Engineering",
+        "subtitle": "Process Engineering & Industrial Chemistry"
+      },
+      "overview": {
+        "introduction": "The Department of Chemical Engineering focuses on process engineering and industrial chemistry.",
+        "description": "Our program provides comprehensive training in chemical processes, unit operations, and industrial chemistry. Students gain practical experience through industry internships and research projects."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in Chemical Engineering",
+          "duration": "4 Years",
+          "description": "A comprehensive program covering chemical processes, unit operations, and industrial chemistry."
+        }
+      ],
+      "labs": [
+        {
+          "name": "Process Engineering Lab",
+          "description": "Advanced laboratory for chemical process analysis and optimization.",
+          "equipment": [
+            "Pilot Plant Units",
+            "Process Control Systems",
+            "Chemical Analysis Equipment",
+            "Process Simulation Software"
+          ]
+        },
+        {
+          "name": "Industrial Chemistry Lab",
+          "description": "Modern laboratory for industrial chemical analysis and synthesis.",
+          "equipment": [
+            "Chemical Reactors",
+            "Separation Units",
+            "Analytical Instruments",
+            "Process Control Systems"
+          ]
+        }
+      ],
+      "achievements": [
+        "Industry partnerships with leading chemical companies",
+        "Research collaborations with national laboratories",
+        "Student projects winning national competitions",
+        "State-of-the-art laboratory facilities"
+      ],
+      "contact": {
+        "email": "chemical@gecbarmer.ac.in",
+        "phone": "+91-9460394653",
+        "location": "Block E, First Floor, GEC Barmer Campus"
+      }
+    },
+    "electronics": {
+      "id": "electronics",
+      "name": "Electronics Engineering",
+      "tagline": "Innovating through electronic systems and communication",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/electronics-hero_awp9dj.webp",
+        "title": "Electronics Engineering",
+        "subtitle": "Electronic Systems & Communication"
+      },
+      "overview": {
+        "introduction": "The Department of Electronics Engineering focuses on electronic systems and communication technologies.",
+        "description": "Our program provides comprehensive training in electronic devices, circuits, and communication systems. Students gain practical experience through industry projects and research work."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in Electronics Engineering",
+          "duration": "4 Years",
+          "description": "A comprehensive program covering electronic devices, circuits, and communication systems."
+        }
+      ],
+      "labs": [
+        {
+          "name": "Electronics Lab",
+          "description": "Advanced laboratory for electronic circuit design and testing.",
+          "equipment": [
+            "Oscilloscopes",
+            "Function Generators",
+            "Digital Multimeters",
+            "Circuit Design Software"
+          ]
+        },
+        {
+          "name": "Communication Systems Lab",
+          "description": "Modern laboratory for communication system analysis and testing.",
+          "equipment": [
+            "Signal Generators",
+            "Spectrum Analyzers",
+            "Communication Kits",
+            "Network Analyzers"
+          ]
+        }
+      ],
+      "achievements": [
+        "Industry partnerships with leading electronics companies",
+        "Research collaborations with national laboratories",
+        "Student projects winning national competitions",
+        "State-of-the-art laboratory facilities"
+      ],
+      "contact": {
+        "email": "electronics@gecbarmer.ac.in",
+        "phone": "+91-9460394654",
+        "location": "Block F, First Floor, GEC Barmer Campus"
+      }
+    },
+    "petroleum": {
+      "id": "petroleum",
+      "name": "Petroleum Engineering",
+      "tagline": "Exploring and producing energy resources efficiently",
+      "hero": {
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/petroleum-hero_awp9dj.webp",
+        "title": "Petroleum Engineering",
+        "subtitle": "Oil & Gas Exploration & Production"
+      },
+      "overview": {
+        "introduction": "The Department of Petroleum Engineering focuses on oil and gas exploration and production.",
+        "description": "Our program provides comprehensive training in petroleum exploration, drilling, production, and reservoir engineering. Students gain practical experience through industry internships and field visits."
+      },
+      "programs": [
+        {
+          "name": "B.Tech in Petroleum Engineering",
+          "duration": "4 Years",
+          "description": "A comprehensive program covering petroleum exploration, drilling, and production."
+        }
+      ],
+      "labs": [
+        {
+          "name": "Drilling Engineering Lab",
+          "description": "Advanced laboratory for drilling operations and well design.",
+          "equipment": [
+            "Drilling Simulators",
+            "Well Design Software",
+            "Core Analysis Equipment",
+            "Fluid Testing Units"
+          ]
+        },
+        {
+          "name": "Reservoir Engineering Lab",
+          "description": "Modern laboratory for reservoir characterization and simulation.",
+          "equipment": [
+            "Reservoir Simulators",
+            "Core Analysis Equipment",
+            "PVT Analysis Units",
+            "Reservoir Modeling Software"
+          ]
+        }
+      ],
+      "achievements": [
+        "Industry partnerships with leading oil and gas companies",
+        "Research collaborations with national laboratories",
+        "Student projects winning national competitions",
+        "State-of-the-art laboratory facilities"
+      ],
+      "contact": {
+        "email": "petroleum@gecbarmer.ac.in",
+        "phone": "+91-9460394655",
+        "location": "Block G, First Floor, GEC Barmer Campus"
+      }
+    }
+  }
+} 

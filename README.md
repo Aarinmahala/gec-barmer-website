@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# GEC Barmer College Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website for Government Engineering College Barmer built with React.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Modern UI/UX design with Bootstrap and custom styling
+- Responsive layout for all device sizes
+- Interactive components for better user engagement
+- Comprehensive information about college departments, courses, and facilities
+- Easy navigation with a clear information hierarchy
 
-### `npm start`
+## Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home**: Showcases key information about the college with a hero slider and highlights
+- **About**: Information about the college's history, vision, mission, and leadership
+- **Departments**: Details about all engineering departments
+- **Courses**: Information about B.Tech programs offered
+- **Leadership**: Profiles of college administration, board of governors, and branch coordinators
+- **Gallery**: Photo gallery with lightbox feature organized by categories
+- **Student Clubs**: Information about student clubs and activities
+- **Academics**: Resources including syllabus, academic calendar, and announcements
+- **Facilities**: Campus facilities and infrastructure
+- **Contact**: Contact information, location map, and contact form
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Stack
 
-### `npm test`
+- React.js
+- React Router for navigation
+- React Bootstrap for UI components
+- CSS3 with custom styling
+- Font Awesome for icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or above)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+   ```
+   git clone https://github.com/your-username/college-website.git
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory
+   ```
+   cd college-website
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server
+   ```
+   npm start
+   ```
+   or
+   ```
+   yarn start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open [http://localhost:3000](http://localhost:3000) to view the website in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment
 
-## Learn More
+The website can be deployed to any static hosting service like GitHub Pages, Netlify, or Vercel.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Build the production-ready version:
+   ```
+   npm run build
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Deploy the contents of the `build` folder to your hosting service.
 
-### Code Splitting
+## Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Images**: Replace the placeholder images in the `public/images` directory with actual college photos
+- **Content**: Update the sample data in each component with real content
+- **Styling**: Customize colors and styling in the CSS files
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React.js team for the amazing framework
+- React Bootstrap team for the UI components
+- Font Awesome for the icon library

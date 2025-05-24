@@ -1,0 +1,96 @@
+{
+  "generalInfo": {
+    "title": "Central Library",
+    "description": "The Central Library at GEC Barmer is a state-of-the-art facility designed to support academic excellence and research. With a vast collection of books, journals, and digital resources, we provide an ideal environment for learning and intellectual growth.",
+    "image": "https://th.bing.com/th/id/OIP.g9D2GWyLDwZ8kEQxoR5dEQHaFj?rs=1&pid=ImgDetMain",
+    "workingHours": {
+      "weekdays": "8:00 AM - 8:00 PM",
+      "saturday": "9:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    },
+    "contact": {
+      "librarian": "Dr. John Doe",
+      "email": "library@gecbarmer.ac.in",
+      "phone": "+91-XXXXXXXXXX"
+    }
+  },
+  "facilities": [
+    {
+      "title": "Reading Hall",
+      "description": "Spacious reading hall with comfortable seating arrangements and natural lighting",
+      "capacity": "200 students",
+      "icon": "fas fa-book-reader"
+    },
+    {
+      "title": "Digital Resource Center",
+      "description": "Computer lab with high-speed internet access for digital research",
+      "capacity": "50 computers",
+      "icon": "fas fa-laptop"
+    },
+    {
+      "title": "Discussion Rooms",
+      "description": "Private rooms for group discussions and project work",
+      "capacity": "4 rooms",
+      "icon": "fas fa-users"
+    },
+    {
+      "title": "E-Learning Zone",
+      "description": "Dedicated space for accessing online courses and digital learning materials",
+      "capacity": "30 students",
+      "icon": "fas fa-graduation-cap"
+    }
+  ],
+  "collections": {
+    "books": {
+      "total": 50000,
+      "categories": [
+        "Engineering",
+        "Science",
+        "Mathematics",
+        "Computer Science",
+        "General Knowledge"
+      ]
+    },
+    "journals": {
+      "print": 100,
+      "online": 5000,
+      "subjects": [
+        "Technical Journals",
+        "Research Papers",
+        "Magazines"
+      ]
+    },
+    "digitalResources": [
+      "IEEE Digital Library",
+      "Science Direct",
+      "Springer Link",
+      "E-Books Collection",
+      "Online Databases"
+    ]
+  },
+  "services": [
+    {
+      "title": "Book Issue & Return",
+      "description": "Easy book borrowing system with online renewal facility",
+      "icon": "fas fa-book"
+    },
+    {
+      "title": "Reference Service",
+      "description": "Professional assistance in finding and using library resources",
+      "icon": "fas fa-search"
+    },
+    {
+      "title": "Document Delivery",
+      "description": "Photocopy and scanning services for library materials",
+      "icon": "fas fa-copy"
+    }
+  ],
+  "rules": [
+    "Students must carry their ID cards to enter the library",
+    "Maximum 3 books can be issued for 14 days",
+    "Books can be renewed online if not reserved by others",
+    "Maintain silence in the library premises",
+    "No food or drinks allowed inside the library",
+    "Mobile phones should be kept in silent mode"
+  ]
+} 

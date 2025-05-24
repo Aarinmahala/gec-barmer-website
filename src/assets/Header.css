@@ -1,0 +1,356 @@
+/* Header Styles */
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #0ea5e9;
+  --text-color: #333;
+  --light-bg: #f8fafc;
+  --border-color: #e2e8f0;
+  --white: #fff;
+  --gray: #64748b;
+  --dark-gray: #334155;
+  --facebook-blue: #4267B2;
+  --twitter-blue: #1da1f2;
+  --linkedin-blue: #0077b5;
+  --instagram-gradient: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+/* Top Information Bar */
+.top-info-bar {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 8px 0;
+  font-size: 0.85rem;
+}
+
+.contact-info span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.info-icon {
+  margin-right: 5px;
+}
+
+.social-links a {
+  color: var(--white);
+  margin-left: 15px;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-links a:hover {
+  color: var(--white);
+  transform: translateY(-3px);
+}
+
+.social-links a:nth-child(1) {
+  background-color: var(--facebook-blue);
+}
+
+.social-links a:nth-child(2) {
+  background-color: var(--twitter-blue);
+}
+
+.social-links a:nth-child(3) {
+  background: var(--instagram-gradient);
+}
+
+.social-links a:nth-child(4) {
+  background-color: var(--linkedin-blue);
+}
+
+/* Main Header */
+.header-wrapper, .site-header {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--white);
+}
+
+.site-header .navbar, .header-wrapper .navbar {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Compact header styles */
+.header-container {
+  max-width: 95%;
+  padding: 0;
+}
+
+.compact-navbar {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.navbar-left {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right .logo-placeholder {
+  height: 50px;
+  width: 50px;
+  font-size: 1rem;
+  margin-right: 0;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.small-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  padding: 2px;
+}
+
+.small-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.small-logo-text {
+  font-size: 0.8rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.compact-brand {
+  max-width: none;
+  flex-grow: 1;
+}
+
+.compact-nav {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-right: 0;
+}
+
+.college-logo {
+  height: 65px;
+  width: auto;
+  margin-right: 12px;
+  border-radius: 5px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.logo-placeholder {
+  height: 65px;
+  width: 65px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+.college-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.3;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.college-tagline {
+  font-size: 0.9rem;
+  color: var(--gray);
+  letter-spacing: 0.5px;
+}
+
+/* Enhanced Button Styles */
+.nav-link {
+  color: #1a237e !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease;
+  position: relative;
+  margin: 0 2px;
+}
+
+.nav-link:hover {
+  color: #0d47a1 !important;
+  background-color: rgba(26, 35, 126, 0.05);
+  border-radius: 6px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #1a237e;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 80%;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.dropdown-item {
+  color: #1a237e;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(26, 35, 126, 0.08);
+  color: #0d47a1;
+  transform: translateX(5px);
+}
+
+.dropdown-item:active {
+  background-color: #1a237e;
+  color: white;
+}
+
+/* Active Link Styles */
+.nav-link.active {
+  color: #0d47a1 !important;
+  background-color: rgba(26, 35, 126, 0.08);
+  border-radius: 6px;
+}
+
+.nav-link.active::after {
+  width: 80%;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .nav-link {
+    padding: 0.8rem 1rem !important;
+    border-radius: 6px;
+    margin: 2px 0;
+  }
+
+  .nav-link:hover {
+    background-color: rgba(26, 35, 126, 0.08);
+  }
+  
+  .dropdown-menu {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-item {
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .dropdown-item:hover {
+    transform: none;
+    background-color: rgba(26, 35, 126, 0.08);
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  
+  .brand-text {
+    padding-left: 0;
+  }
+  
+  .college-logo {
+    height: 50px;
+  }
+  
+  .logo-placeholder {
+    height: 50px;
+    width: 50px;
+    font-size: 1.1rem;
+    margin-right: 10px;
+  }
+  
+  .college-name {
+    font-size: 1.1rem;
+  }
+  
+  .college-tagline {
+    font-size: 0.7rem;
+  }
+  
+  .header-container {
+    max-width: 100%;
+  }
+  
+  .small-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .navbar-right {
+    margin-top: 10px;
+  }
+  
+  .navbar-right .logo-placeholder {
+    height: 30px;
+    width: 30px;
+    font-size: 0.8rem;
+  }
+} 

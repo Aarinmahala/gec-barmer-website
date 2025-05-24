@@ -1,0 +1,108 @@
+{
+  "id": "mechanical",
+  "name": "Mechanical Engineering",
+  "tagline": "Engineering excellence in design, manufacturing, and innovation",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/mechanical-hero_awp9dj.webp",
+    "title": "Mechanical Engineering",
+    "subtitle": "Advancing Manufacturing and Design"
+  },
+  "overview": {
+    "introduction": "The Department of Mechanical Engineering focuses on developing expertise in design, manufacturing, thermal systems, and robotics while emphasizing sustainable engineering solutions.",
+    "description": "Our curriculum combines fundamental mechanical engineering principles with modern technologies in CAD/CAM, automation, and renewable energy systems. Students gain practical experience through hands-on projects and industry collaborations."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in Mechanical Engineering",
+      "duration": "4 Years",
+      "description": "Comprehensive program covering mechanical design, manufacturing processes, thermal systems, and automation with focus on sustainable engineering."
+    }
+  ],
+  "labs": [
+    {
+      "name": "Manufacturing Laboratory",
+      "description": "Advanced facility for studying manufacturing processes and automation.",
+      "equipment": [
+        "CNC Machines",
+        "3D Printers",
+        "CAD/CAM Software",
+        "Robotics Kits"
+      ]
+    },
+    {
+      "name": "Thermal Engineering Laboratory",
+      "description": "Modern laboratory for studying thermal systems and energy conversion.",
+      "equipment": [
+        "Heat Transfer Units",
+        "IC Engine Test Rigs",
+        "Refrigeration Systems",
+        "Solar Energy Equipment"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "mechanical-001",
+      "name": "Dr. Sanjay Kumar",
+      "designation": "Professor & Head",
+      "qualification": "Ph.D. in Mechanical Engineering",
+      "specialization": "Manufacturing, Robotics",
+      "experience": "20+ years",
+      "email": "sanjay.kumar@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/sanjay-kumar_awp9dj.webp",
+      "bio": "Dr. Sanjay Kumar specializes in manufacturing and robotics with expertise in automation and Industry 4.0.",
+      "researchAreas": [
+        "Manufacturing",
+        "Robotics",
+        "Automation"
+      ],
+      "courses": [
+        "Manufacturing Processes",
+        "Robotics",
+        "CAD/CAM"
+      ],
+      "achievements": [
+        "Best Teacher Award 2023",
+        "Research Grant from DST",
+        "Industry Consultancy Projects"
+      ]
+    },
+    {
+      "id": "mechanical-002",
+      "name": "Dr. Priyanka Singh",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. in Thermal Engineering",
+      "specialization": "Thermal Systems, Renewable Energy",
+      "experience": "15 years",
+      "email": "priyanka.singh@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/priyanka-singh_awp9dj.webp",
+      "bio": "Dr. Priyanka Singh focuses on thermal systems and renewable energy with expertise in sustainable engineering solutions.",
+      "researchAreas": [
+        "Thermal Systems",
+        "Renewable Energy",
+        "Energy Conservation"
+      ],
+      "courses": [
+        "Thermal Engineering",
+        "Renewable Energy Systems",
+        "Energy Conservation"
+      ],
+      "achievements": [
+        "Young Scientist Award 2022",
+        "Patent in Thermal Systems",
+        "Industry Collaboration Projects"
+      ]
+    }
+  ],
+  "achievements": [
+    "Ranked among top 50 Mechanical Engineering departments in India",
+    "Industry partnerships with leading manufacturing companies",
+    "State-of-the-art research facilities",
+    "Excellent placement record"
+  ],
+  "contact": {
+    "email": "mechanical@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block F, Second Floor, GEC Barmer Campus"
+  }
+} 

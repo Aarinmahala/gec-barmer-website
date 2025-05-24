@@ -1,0 +1,223 @@
+.council-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.page-hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.page-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.page-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Search Section */
+.search-section {
+  padding: 20px 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.search-section .form-control,
+.search-section .form-select {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+}
+
+.search-section .input-group-text {
+  background-color: #1a237e;
+  color: white;
+  border: none;
+}
+
+/* Council Grid Section */
+.council-grid-section {
+  padding: 40px 0;
+}
+
+.council-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  background: white;
+}
+
+.council-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.council-image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  overflow: hidden;
+}
+
+.council-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.council-card:hover .council-image {
+  transform: scale(1.05);
+}
+
+.council-social-links {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.council-card:hover .council-social-links {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.social-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}
+
+.social-link.linkedin {
+  background-color: #0077b5;
+}
+
+.council-card .card-body {
+  padding: 1.5rem;
+}
+
+.council-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a237e;
+}
+
+.council-card .card-subtitle {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.council-card .branch,
+.council-card .year {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.council-card .branch i {
+  color: #1a237e;
+  margin-right: 8px;
+}
+
+.council-actions {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.linkedin-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-color: #0077b5;
+  color: #0077b5;
+  transition: all 0.3s ease;
+}
+
+.linkedin-btn:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+.linkedin-btn svg {
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 60px 0;
+  }
+
+  .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .page-hero p {
+    font-size: 1rem;
+  }
+
+  .search-section .col-md-8,
+  .search-section .col-md-4 {
+    margin-bottom: 1rem;
+  }
+
+  .council-social-links {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

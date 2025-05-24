@@ -1,0 +1,19 @@
+{
+  "name": "Mr. Kamal Panwar",
+  "position": "Registrar",
+  "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747222365/OIP_leveho.jpg",
+  "qualifications": "B.Tech in Electronics and Communication Engineering",
+  "experience": "More than 26 years in teaching and research. Before assuming the charge of Registrar, Government Engineering College, Barmer, Rajasthan.",
+  "message": "It is a matter of great pride to serve as the Registrar of our esteemed institution. With extensive experience in academic administration and a strong commitment to excellence, we ensure smooth functioning of all academic and administrative processes.",
+  "responsibilities": [
+    "Academic Administration",
+    "Student Records Management",
+    "Examination Coordination",
+    "Academic Calendar Management",
+    "Student Affairs"
+  ],
+  "contact": {
+    "email": "registrar@gecbarmer.ac.in",
+    "phone": "+91-XXXXXXXXXX"
+  }
+} 

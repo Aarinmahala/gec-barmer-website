@@ -1,0 +1,119 @@
+/* Admin Panel Common Styles */
+.admin-page .page-hero {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #4338ca, #1e40af);
+  position: relative;
+}
+
+.admin-page .page-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.admin-page .page-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.admin-page .section {
+  padding: 3rem 0;
+}
+
+.admin-page .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.admin-page .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  font-weight: 600;
+}
+
+.admin-page .table thead th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.admin-page .form-text {
+  font-size: 0.75rem;
+}
+
+.admin-page .alert {
+  margin-bottom: 2rem;
+}
+
+/* Admin Navigation */
+.admin-nav {
+  display: flex;
+  align-items: center;
+}
+
+.admin-nav .nav-link {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #4338ca;
+  font-weight: 500;
+}
+
+.admin-nav .nav-link.active {
+  background-color: #4338ca;
+  color: white;
+}
+
+.admin-nav .nav-link:hover:not(.active) {
+  background-color: #f3f4f6;
+}
+
+/* Announcement Manager Specific Styles */
+.announcement-manager-page .table th,
+.announcement-manager-page .table td {
+  vertical-align: middle;
+}
+
+.announcement-content-preview {
+  max-height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.bg-light-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .admin-page .page-hero {
+    padding: 2rem 0;
+  }
+  
+  .admin-page .section {
+    padding: 2rem 0;
+  }
+  
+  .admin-nav {
+    flex-wrap: wrap;
+  }
+  
+  .admin-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .admin-nav .ms-auto {
+    margin-left: 0 !important;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  .admin-nav .ms-auto .btn {
+    width: 100%;
+  }
+} 

@@ -1,0 +1,108 @@
+{
+  "id": "civil",
+  "name": "Civil Engineering",
+  "tagline": "Building tomorrow's infrastructure with sustainable engineering solutions",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/civil-hero_awp9dj.webp",
+    "title": "Civil Engineering",
+    "subtitle": "Shaping the Future of Infrastructure"
+  },
+  "overview": {
+    "introduction": "The Department of Civil Engineering is dedicated to developing skilled professionals who can design, construct, and maintain sustainable infrastructure for the modern world.",
+    "description": "Our program combines theoretical knowledge with practical skills in structural engineering, transportation, environmental engineering, and construction management. Students gain hands-on experience through field visits, industry projects, and state-of-the-art laboratories."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in Civil Engineering",
+      "duration": "4 Years",
+      "description": "Comprehensive undergraduate program covering structural analysis, transportation engineering, environmental engineering, and construction management."
+    }
+  ],
+  "labs": [
+    {
+      "name": "Structural Engineering Lab",
+      "description": "Advanced laboratory for testing and analyzing structural components and materials.",
+      "equipment": [
+        "Universal Testing Machine",
+        "Concrete Testing Equipment",
+        "Steel Testing Apparatus",
+        "Non-destructive Testing Tools"
+      ]
+    },
+    {
+      "name": "Transportation Engineering Lab",
+      "description": "Modern facility for studying transportation systems and materials.",
+      "equipment": [
+        "Bitumen Testing Equipment",
+        "Aggregate Testing Apparatus",
+        "Pavement Testing Tools",
+        "Traffic Analysis Software"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "civil-001",
+      "name": "Dr. Vikram Singh",
+      "designation": "Professor & Head",
+      "qualification": "Ph.D. in Structural Engineering",
+      "specialization": "Structural Analysis, Earthquake Engineering",
+      "experience": "18+ years",
+      "email": "vikram.singh@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/vikram-singh_awp9dj.webp",
+      "bio": "Dr. Vikram Singh specializes in structural engineering with expertise in earthquake-resistant design and analysis.",
+      "researchAreas": [
+        "Earthquake Engineering",
+        "Structural Analysis",
+        "Seismic Design"
+      ],
+      "courses": [
+        "Structural Analysis",
+        "Earthquake Engineering",
+        "Advanced Concrete Technology"
+      ],
+      "achievements": [
+        "Best Teacher Award 2022",
+        "Research Grant from MHRD",
+        "Industry Consultancy Projects"
+      ]
+    },
+    {
+      "id": "civil-002",
+      "name": "Dr. Anjali Gupta",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. in Transportation Engineering",
+      "specialization": "Transportation Planning, Pavement Design",
+      "experience": "12 years",
+      "email": "anjali.gupta@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/anjali-gupta_awp9dj.webp",
+      "bio": "Dr. Anjali Gupta focuses on transportation engineering with expertise in sustainable transportation systems.",
+      "researchAreas": [
+        "Transportation Planning",
+        "Pavement Design",
+        "Traffic Engineering"
+      ],
+      "courses": [
+        "Transportation Engineering",
+        "Pavement Design",
+        "Traffic Engineering"
+      ],
+      "achievements": [
+        "Young Scientist Award 2021",
+        "Published 20+ Research Papers",
+        "Industry Collaboration Projects"
+      ]
+    }
+  ],
+  "achievements": [
+    "Ranked among top 50 Civil Engineering departments in India",
+    "Industry partnerships with leading construction companies",
+    "State-of-the-art research facilities",
+    "Excellent placement record"
+  ],
+  "contact": {
+    "email": "civil@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block C, First Floor, GEC Barmer Campus"
+  }
+} 

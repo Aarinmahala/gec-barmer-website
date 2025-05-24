@@ -1,0 +1,19 @@
+{
+  "name": "Prof. Ajay Kumar Sharma",
+  "position": "Vice Chancellor",
+  "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747737795/vc.jpeg_e2apzr.jpg",
+  "qualifications": "Ph.D in Electronics Engineering",
+  "experience": "Dr Sharma has an experience of more than 35 years of in teaching and research. Before assuming the charge of Vice Chancellor, MBM University, Jodhpur, Rajasthan",
+  "message": "As the Vice Chancellor, I am committed to fostering academic excellence, research innovation, and holistic development of our students. Our institution stands as a beacon of quality technical education, preparing future leaders and innovators.",
+  "responsibilities": [
+    "Academic Leadership",
+    "Strategic Planning",
+    "Research Development",
+    "Quality Assurance",
+    "Institutional Development"
+  ],
+  "contact": {
+    "email": "vc@gecbarmer.ac.in",
+    "phone": "+91-XXXXXXXXXX"
+  }
+} 

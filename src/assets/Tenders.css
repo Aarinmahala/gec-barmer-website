@@ -1,0 +1,125 @@
+.tenders-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.tenders-hero {
+  background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tenders-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.tenders-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.tenders-content {
+  padding: 20px;
+}
+
+.search-input,
+.category-select {
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus,
+.category-select:focus {
+  border-color: #1a237e;
+  box-shadow: 0 0 0 0.2rem rgba(26, 35, 126, 0.25);
+}
+
+.tender-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+}
+
+.tender-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tender-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tender-reference {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+}
+
+.tender-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+}
+
+.meta-item svg {
+  color: #1a237e;
+}
+
+.tender-documents {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.tender-documents h6 {
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+.tender-documents .btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+}
+
+.tender-documents .btn:hover {
+  background-color: #1a237e;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .tenders-hero {
+    padding: 60px 0;
+  }
+
+  .tenders-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .tenders-content {
+    padding: 10px;
+  }
+
+  .tender-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+} 

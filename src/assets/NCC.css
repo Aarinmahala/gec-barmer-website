@@ -1,0 +1,54 @@
+/* NCC Page Styles */
+.ncc-page {
+  scroll-behavior: smooth;
+}
+
+.ncc-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: var(--white);
+}
+
+.gallery-card {
+  transition: transform 0.3s ease;
+  border: none;
+  overflow: hidden;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover .gallery-img {
+  transform: scale(1.05);
+}
+
+.ncc-group-photo-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.ncc-group-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .ncc-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .gallery-card {
+    margin-bottom: 1rem;
+  }
+} 

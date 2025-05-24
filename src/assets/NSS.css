@@ -1,0 +1,43 @@
+/* NSS Photo Gallery Styles */
+
+.gallery-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.gallery-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+.gallery-img {
+  border-radius: 0;
+  transition: filter 0.2s;
+}
+
+.gallery-card:hover .gallery-img {
+  filter: brightness(0.92) contrast(1.08);
+}
+
+.nss-group-photo-container {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+
+.nss-group-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Modal image styling */
+.modal-body img {
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+} 

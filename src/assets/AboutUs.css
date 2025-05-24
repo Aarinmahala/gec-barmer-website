@@ -1,0 +1,284 @@
+/* About Us Page Styles */
+.about-us-page {
+  background-color: #fff;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Vision & Mission Section */
+.vision-mission-section {
+  padding: 80px 0;
+}
+
+.vision-card, .mission-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.vision-card:hover, .mission-card:hover {
+  transform: translateY(-5px);
+}
+
+.section-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-icon i {
+  font-size: 24px;
+  color: #0d6efd;
+}
+
+.vision-card h3, .mission-card h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.mission-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mission-card ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.mission-card ul li:before {
+  content: "•";
+  color: #0d6efd;
+  position: absolute;
+  left: 0;
+}
+
+/* Leadership Section */
+.leadership-section {
+  background-color: #f8f9fa;
+}
+
+.leadership-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.leadership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leadership-image-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 66.67%;
+  position: relative;
+  overflow: hidden;
+}
+
+.leadership-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease;
+}
+
+.leadership-card:hover .leadership-image {
+  transform: scale(1.05);
+}
+
+.leadership-card .card-body {
+  padding: 1.5rem;
+}
+
+.leadership-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0d6efd;
+  margin-bottom: 0.5rem;
+}
+
+.leadership-card .card-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.leadership-card .qualifications,
+.leadership-card .experience {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.leadership-card .message {
+  font-size: 0.9rem;
+  color: #495057;
+  font-style: italic;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Location Section */
+.location-section {
+  padding: 80px 0;
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  padding: 2rem;
+}
+
+.contact-info h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contact-info p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+/* Quick Links Section */
+.quick-links-section {
+  background-color: #f8f9fa;
+}
+
+.quick-links-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.quick-links-card h4 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.quick-links-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.quick-links-card ul li {
+  margin-bottom: 0.75rem;
+}
+
+.quick-links-card ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.quick-links-card ul li a:hover {
+  color: #0d6efd;
+}
+
+/* Section Heading */
+.section-heading {
+  margin-bottom: 3rem;
+}
+
+.section-heading h2 {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heading-line {
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 60px 0;
+  }
+
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .section-heading {
+    margin-bottom: 2rem;
+  }
+
+  .contact-info {
+    padding: 1rem;
+  }
+
+  .leadership-image-container {
+    max-width: 300px;
+  }
+  
+  .leadership-card .card-title {
+    font-size: 1.3rem;
+  }
+  
+  .leadership-card .card-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .section-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .section-icon i {
+    font-size: 20px;
+  }
+} 

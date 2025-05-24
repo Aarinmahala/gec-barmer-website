@@ -1,0 +1,100 @@
+{
+  "title": "Tenders & Orders",
+  "description": "Latest tenders and orders from Government Engineering College, Barmer",
+  "categories": [
+    "General Tenders",
+    "Equipment & Purchases",
+    "Civil Works",
+    "Manpower Services"
+  ],
+  "tenders": [
+    {
+      "id": 1,
+      "title": "Supply of Laboratory Equipment for Computer Science Department",
+      "reference": "GECB/2024/CS/001",
+      "category": "Equipment & Purchases",
+      "publishDate": "2024-03-20",
+      "lastDate": "2024-04-20",
+      "status": "Active",
+      "description": "Supply and installation of computer laboratory equipment including workstations, servers, and networking equipment.",
+      "documents": [
+        {
+          "name": "Tender Document",
+          "url": "/tenders/cs-lab-equipment.pdf"
+        },
+        {
+          "name": "Technical Specifications",
+          "url": "/tenders/cs-lab-specs.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Construction of New Academic Block",
+      "reference": "GECB/2024/CIVIL/002",
+      "category": "Civil Works",
+      "publishDate": "2024-03-15",
+      "lastDate": "2024-04-15",
+      "status": "Active",
+      "description": "Construction of a new academic block with classrooms, laboratories, and administrative offices.",
+      "documents": [
+        {
+          "name": "Tender Document",
+          "url": "/tenders/academic-block.pdf"
+        },
+        {
+          "name": "Technical Specifications",
+          "url": "/tenders/academic-block-specs.pdf"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Campus Security Services",
+      "reference": "GECB/2024/ADMIN/003",
+      "category": "Manpower Services",
+      "publishDate": "2024-03-10",
+      "lastDate": "2024-04-10",
+      "status": "Active",
+      "description": "Provision of security services for the college campus including guards and surveillance systems.",
+      "documents": [
+        {
+          "name": "Tender Document",
+          "url": "/tenders/security-services.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Supply of Sports Equipment",
+      "reference": "GECB/2024/SPORTS/004",
+      "category": "Equipment & Purchases",
+      "publishDate": "2024-03-05",
+      "lastDate": "2024-04-05",
+      "status": "Active",
+      "description": "Supply of sports equipment and materials for various sports facilities.",
+      "documents": [
+        {
+          "name": "Tender Document",
+          "url": "/tenders/sports-equipment.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Maintenance of Electrical Systems",
+      "reference": "GECB/2024/ELECTRICAL/005",
+      "category": "General Tenders",
+      "publishDate": "2024-03-01",
+      "lastDate": "2024-04-01",
+      "status": "Active",
+      "description": "Annual maintenance contract for electrical systems and equipment.",
+      "documents": [
+        {
+          "name": "Tender Document",
+          "url": "/tenders/electrical-maintenance.pdf"
+        }
+      ]
+    }
+  ]
+} 
