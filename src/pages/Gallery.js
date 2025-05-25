@@ -41,20 +41,20 @@ const Gallery = () => {
                     />
                     <div className="image-overlay">
                       <FaExternalLinkAlt className="icon" />
-                    </div>
-                  </div>
+                          </div>
+                        </div>
                   <Card.Body>
                     <div className="event-date">
                       <FaCalendarAlt className="me-2" />
                       {event.date}
-                    </div>
+                      </div>
                     <Card.Title>{event.title}</Card.Title>
                     <Card.Text>{event.description}</Card.Text>
                   </Card.Body>
                 </Card>
-              </Col>
-            ))}
-          </Row>
+                    </Col>
+                  ))}
+                </Row>
         </Container>
       </section>
     </div>
