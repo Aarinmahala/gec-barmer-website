@@ -1,8 +1,19 @@
 .site-footer {
-  background-color: #112240;
+  background: linear-gradient(135deg, #112240 0%, #1a2a3a 100%);
   color: #e5e7eb;
-  padding: 2rem 0 1rem;
-  --secondary-color-rgb: 79, 209, 197; /* Teal color in RGB format */
+  padding: 4rem 0 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
 }
 
 .footer-heading {
@@ -11,26 +22,37 @@
   font-weight: 600;
   margin-bottom: 1.5rem;
   position: relative;
+  padding-bottom: 0.75rem;
 }
 
 .footer-heading::after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -0.5rem;
-  width: 50px;
+  bottom: 0;
+  width: 40px;
   height: 3px;
-  background-color: var(--secondary-color);
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border-radius: 2px;
 }
 
 .footer-text {
   color: #9ca3af;
   margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .contact-info p {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   font-size: 0.95rem;
+  line-height: 1.6;
+  color: #9ca3af;
+}
+
+.contact-info strong {
+  color: #e5e7eb;
+  font-weight: 600;
 }
 
 .footer-links {
@@ -46,24 +68,56 @@
 .footer-links a {
   color: #9ca3af;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   font-size: 0.95rem;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding-left: 0;
+}
+
+.footer-links a::before {
+  content: '→';
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
 }
 
 .footer-links a:hover {
-  color: var(--secondary-color);
+  color: white;
+  padding-left: 1.25rem;
+}
+
+.footer-links a:hover::before {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .footer-divider {
-  border-color: rgba(229, 231, 235, 0.1);
-  margin: 1rem 0;
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 2rem 0;
+  position: relative;
+}
+
+.footer-divider::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary-color), transparent);
 }
 
 .copyright {
   color: #9ca3af;
   font-size: 0.9rem;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .social-links {
@@ -76,38 +130,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   color: #e5e7eb;
   transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .social-link:hover {
-  background-color: var(--secondary-color);
-  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.admin-link {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5rem 0.75rem;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-  color: #e5e7eb;
-  font-size: 0.85rem;
-  text-decoration: none;
-  transition: all 0.3s ease;
+.social-link:hover::before {
+  opacity: 1;
 }
 
-.admin-link i {
-  margin-right: 5px;
-}
-
-.admin-link:hover {
-  background-color: var(--secondary-color);
-  color: white;
+.social-link i {
+  position: relative;
+  z-index: 1;
 }
 
 .developer-link {
@@ -116,20 +172,18 @@
   transition: all 0.3s ease;
   color: #e5e7eb;
   text-decoration: none;
-  padding: 6px 12px;
+  padding: 8px 16px;
   border-radius: 8px;
-  background: linear-gradient(135deg, rgba(79, 70, 229, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
-  border: 1px solid rgba(79, 70, 229, 0.2);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  margin-left: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 1rem;
 }
 
 .developer-link:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, rgba(79, 70, 229, 0.2) 0%, rgba(16, 185, 129, 0.2) 100%);
-  color: #ffffff;
-  border-color: rgba(79, 70, 229, 0.5);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 8px rgba(79, 70, 229, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .developer-text {
@@ -139,46 +193,72 @@
 }
 
 .developer-logo {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   margin-left: 8px;
   transition: all 0.5s ease;
-  stroke: #10b981;
 }
 
 .developer-link:hover .developer-logo {
   transform: rotate(360deg);
-  stroke: #4f46e5;
-  filter: drop-shadow(0 0 3px rgba(79, 70, 229, 0.5));
+}
+
+@media (max-width: 991px) {
+  .site-footer {
+    padding: 3rem 0 1rem;
+  }
+  
+  .footer-heading {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 767px) {
+  .site-footer {
+    text-align: center;
+    padding: 2.5rem 0 1rem;
+  }
+  
   .footer-heading::after {
     left: 50%;
     transform: translateX(-50%);
   }
   
-  .site-footer {
-    text-align: center;
-  }
-  
   .social-links {
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
   
   .footer-heading {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   
   .text-md-start.d-flex {
     justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .developer-link {
+    margin-left: 0;
+  }
+  
+  .footer-links a {
+    justify-content: center;
+  }
+  
+  .footer-links a::before {
+    display: none;
+  }
+  
+  .footer-links a:hover {
+    padding-left: 0;
   }
 }
 
 @media (max-width: 576px) {
   .site-footer {
-    padding: 1.5rem 0 1rem;
+    padding: 2rem 0 1rem;
   }
   
   .footer-heading {
@@ -191,11 +271,15 @@
   }
   
   .social-link {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
   }
   
   .copyright {
+    font-size: 0.8rem;
+  }
+  
+  .developer-text {
     font-size: 0.8rem;
   }
 } 

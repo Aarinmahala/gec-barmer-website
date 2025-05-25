@@ -122,13 +122,13 @@ const Header = () => {
                 <NavDropdown.Item as={Link} to="/hostel" onClick={closeNav}>Hostel</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Engage" id="engage-dropdown">
-                <NavDropdown.Item as={Link} to="/contact" onClick={closeNav}>Contact Us</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/gallery" onClick={closeNav}>Gallery</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/industry-associations" onClick={closeNav}>Industry Associations</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/media-coverage" onClick={closeNav}>Media Coverage</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/industry-associations" onClick={closeNav}>Industry Associations</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/web-team" onClick={closeNav}>Web Development Team</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/tenders" onClick={closeNav}>Tenders & Orders</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/careers" onClick={closeNav}>Careers</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/web-team" onClick={closeNav}>Web Development Team</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact" onClick={closeNav}>Contact Us</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <div className="navbar-right">

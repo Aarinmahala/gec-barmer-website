@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, Modal } from 'react-bootstrap';
 import { useImageLinks } from '../utils/ImageLinkContext';
 import PageHero from '../components/PageHero';
 import Loader from '../components/Loader';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../assets/PageHero.css';
 import '../assets/NCC.css';
+import '../assets/Gallery.css';
 
 // Custom CSS for NCC page
 const nccStyles = {
@@ -49,6 +52,13 @@ const NCC = () => {
   const { imageLinks, isLoading } = useImageLinks();
   const [selectedImage, setSelectedImage] = useState(null);
   
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+  
   if (isLoading) {
     return <Loader />;
   }
@@ -83,7 +93,7 @@ const NCC = () => {
       <section className="section">
         <Container>
           <Row className="mb-5 align-items-center">
-            <Col md={7}>
+            <Col md={7} data-aos="fade-right">
               <h2 className="section-title">About NCC</h2>
               <p className="lead">
                 The National Cadet Corps (NCC) is a youth development movement in India that aims to develop character, 
@@ -98,23 +108,23 @@ const NCC = () => {
                 and various adventure activities like trekking, mountaineering, and obstacle courses.
               </p>
             </Col>
-            <Col md={5}>
-              <div style={nccStyles.imageContainer}>
+            <Col md={5} data-aos="fade-left">
+              <div className="ncc-image-container">
                 <img 
                   src={nccSecondary} 
                   alt="NCC Activities" 
-                  style={nccStyles.responsiveImage}
+                  className="ncc-responsive-image"
                 />
               </div>
             </Col>
           </Row>
           
           <div className="mt-5">
-            <h2 className="section-title text-center mb-4">NCC Photo Gallery</h2>
+            <h2 className="section-title text-center mb-4" data-aos="fade-up">NCC Photo Gallery</h2>
             <Row>
               {regularImages.length > 0 ? (
                 regularImages.map((image, index) => (
-                  <Col key={index} md={4} sm={6} className="mb-4">
+                  <Col key={index} md={4} sm={6} className="mb-4" data-aos="fade-up" data-aos-delay={index * 100}>
                     <Card className="gallery-card h-100 shadow-sm" onClick={() => handleImageClick(image)}>
                       <div style={{height: '240px', overflow: 'hidden'}}>
                         <Card.Img 
@@ -137,7 +147,7 @@ const NCC = () => {
             
             {/* Full width 16:9 group picture */}
             {groupPicture && (
-              <div className="mt-4">
+              <div className="mt-4" data-aos="fade-up">
                 <h3 className="text-center mb-3">NCC Group Photo</h3>
                 <div className="d-flex justify-content-center">
                   <div className="ncc-group-photo-container">
@@ -156,9 +166,9 @@ const NCC = () => {
       
       <section className="section bg-light">
         <Container>
-          <h2 className="section-title text-center mb-4">Benefits of NCC</h2>
+          <h2 className="section-title text-center mb-4" data-aos="fade-up">Benefits of NCC</h2>
           <Row>
-            <Col md={4} className="mb-4">
+            <Col md={4} className="mb-4" data-aos="fade-up" data-aos-delay="100">
               <Card className="h-100 shadow-sm">
                 <Card.Body>
                   <h4>Military Training</h4>
@@ -166,7 +176,7 @@ const NCC = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4} className="mb-4">
+            <Col md={4} className="mb-4" data-aos="fade-up" data-aos-delay="200">
               <Card className="h-100 shadow-sm">
                 <Card.Body>
                   <h4>Career Opportunities</h4>
@@ -174,7 +184,7 @@ const NCC = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4} className="mb-4">
+            <Col md={4} className="mb-4" data-aos="fade-up" data-aos-delay="300">
               <Card className="h-100 shadow-sm">
                 <Card.Body>
                   <h4>Personal Development</h4>
@@ -192,7 +202,7 @@ const NCC = () => {
           <Modal.Title>NCC Photo</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={selectedImage} alt="NCC Photo" style={{ width: '100%', height: 'auto' }} />
+          <img src={selectedImage} alt="NCC Photo" className="img-fluid" />
         </Modal.Body>
       </Modal>
     </div>

@@ -32,34 +32,36 @@ const Footer = () => {
             <h5 className="footer-heading">Quick Links</h5>
             <ul className="footer-links">
               <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
               <li><Link to="/principal">Principal</Link></li>
               <li><Link to="/departments">Departments</Link></li>
               <li><Link to="/academics">Academics</Link></li>
               <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/student-activity-council">Student Activity Council</Link></li>
-              <li><Link to="/library">Library</Link></li>
             </ul>
           </Col>
           
           <Col lg={3} md={6} className="mb-4 mb-md-0">
-            <h5 className="footer-heading">Important Links</h5>
+            <h5 className="footer-heading">Campus Life</h5>
             <ul className="footer-links">
-              {importantLinks.map(link => (
-                <li key={link.id}>
-                  <a href={link.url} target="_blank" rel="noopener noreferrer">{link.title}</a>
-                </li>
-              ))}
-            </ul>
-          </Col>
-          
-          <Col lg={3} md={6} className="mb-4 mb-md-0">
-            <h5 className="footer-heading">Student Section</h5>
-            <ul className="footer-links">
-              <li><Link to="/academics/syllabus">Syllabus</Link></li>
-              <li><Link to="/academics/results">Results</Link></li>
-              <li><Link to="/academics/announcements">Announcements</Link></li>
               <li><Link to="/student-clubs">Student Clubs</Link></li>
-              <li><a href="https://mediumvioletred-mallard-277738.hostingersite.com/pay-fee" target="_blank" rel="noopener noreferrer">Pay Fees</a></li>
+              <li><Link to="/nss">NSS</Link></li>
+              <li><Link to="/ncc">NCC</Link></li>
+              <li><Link to="/library">Library</Link></li>
+              <li><Link to="/hostel">Hostel</Link></li>
+              <li><Link to="/student-activity-council">Student Activity Council</Link></li>
+            </ul>
+          </Col>
+          
+          <Col lg={3} md={6} className="mb-4 mb-md-0">
+            <h5 className="footer-heading">Engage</h5>
+            <ul className="footer-links">
+              <li><Link to="/gallery">Gallery</Link></li>
+              <li><Link to="/media-coverage">Media Coverage</Link></li>
+              <li><Link to="/industry-associations">Industry Associations</Link></li>
+              <li><Link to="/web-team">Web Development Team</Link></li>
+              <li><Link to="/tenders">Tenders & Orders</Link></li>
+              <li><Link to="/careers">Careers</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
           </Col>
         </Row>

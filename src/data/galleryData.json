@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Tech SAFARI 2024",
+      "date": "March 15-17, 2024",
+      "description": "Annual technical festival showcasing innovation and creativity",
+      "image": "https://via.placeholder.com/400x300?text=Tech+SAFARI+2024",
+      "driveLink": "https://drive.google.com/drive/folders/your-tech-safari-folder-id"
+    },
+    {
+      "id": 2,
+      "title": "Annual Cultural Fest",
+      "date": "February 20-22, 2024",
+      "description": "Celebration of art, music, dance, and cultural diversity",
+      "image": "https://via.placeholder.com/400x300?text=Cultural+Fest+2024",
+      "driveLink": "https://drive.google.com/drive/folders/your-cultural-fest-folder-id"
+    },
+    {
+      "id": 3,
+      "title": "Graduation Ceremony",
+      "date": "May 15, 2024",
+      "description": "Celebrating the achievements of our graduating students",
+      "image": "https://via.placeholder.com/400x300?text=Graduation+2024",
+      "driveLink": "https://drive.google.com/drive/folders/your-graduation-folder-id"
+    },
+    {
+      "id": 4,
+      "title": "Sports Meet",
+      "date": "January 10-12, 2024",
+      "description": "Annual sports competition featuring various athletic events",
+      "image": "https://via.placeholder.com/400x300?text=Sports+Meet+2024",
+      "driveLink": "https://drive.google.com/drive/folders/your-sports-meet-folder-id"
+    },
+    {
+      "id": 5,
+      "title": "Industry Workshop",
+      "date": "April 5, 2024",
+      "description": "Workshop conducted by industry experts on emerging technologies",
+      "image": "https://via.placeholder.com/400x300?text=Industry+Workshop",
+      "driveLink": "https://drive.google.com/drive/folders/your-workshop-folder-id"
+    },
+    {
+      "id": 6,
+      "title": "Alumni Meet",
+      "date": "March 1, 2024",
+      "description": "Annual gathering of our esteemed alumni",
+      "image": "https://via.placeholder.com/400x300?text=Alumni+Meet+2024",
+      "driveLink": "https://drive.google.com/drive/folders/your-alumni-meet-folder-id"
+    }
+  ]
+} 

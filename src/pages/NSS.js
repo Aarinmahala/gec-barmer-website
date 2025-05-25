@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, Modal } from 'react-bootstrap';
 import { useImageLinks } from '../utils/ImageLinkContext';
 import PageHero from '../components/PageHero';
 import Loader from '../components/Loader';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../assets/PageHero.css';
 import '../assets/NSS.css';
+import '../assets/Gallery.css';
 
 // Custom CSS for NSS page
 const nssStyles = {
@@ -49,6 +52,13 @@ const NSS = () => {
   const { imageLinks, isLoading } = useImageLinks();
   const [selectedImage, setSelectedImage] = useState(null);
   
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+  
   if (isLoading) {
     return <Loader />;
   }
@@ -73,7 +83,7 @@ const NSS = () => {
   return (
     <div className="nss-page page-content">
       <PageHero 
-        title="National Service Scheme (NSS)" 
+        title="National Service Scheme(NSS)" 
         subtitle="Not Me But You" 
         bgImage={nssHero}
         bgColor="primary"
@@ -83,7 +93,7 @@ const NSS = () => {
       <section className="section">
         <Container>
           <Row className="mb-5 align-items-center">
-            <Col md={7}>
+            <Col md={7} data-aos="fade-right">
               <h2 className="section-title">About NSS</h2>
               <p className="lead">
                 The National Service Scheme (NSS) is a public service program sponsored by the Government of India that aims to develop 
@@ -98,34 +108,27 @@ const NSS = () => {
                 service activities that contribute to the betterment of society.
               </p>
             </Col>
-            <Col md={5}>
-              <div style={nssStyles.imageContainer}>
+            <Col md={5} data-aos="fade-left">
+              <div className="nss-image-container">
                 <img 
                   src={nssSecondary} 
                   alt="NSS Activities" 
-                  style={nssStyles.responsiveImage}
+                  className="nss-responsive-image"
                 />
               </div>
             </Col>
           </Row>
           
           <div className="mt-5">
-            <h2 className="section-title text-center mb-4">NSS Photo Gallery</h2>
+            <h2 className="section-title text-center mb-4" data-aos="fade-up">NSS Photo Gallery</h2>
             <Row>
               {regularImages.length > 0 ? (
                 regularImages.map((image, index) => (
-                  <Col key={index} md={4} sm={6} className="mb-4">
-                    <Card className="gallery-card h-100 shadow-sm" onClick={() => handleImageClick(image)}>
-                      <div style={{height: '240px', overflow: 'hidden'}}>
-                        <Card.Img 
-                          variant="top" 
-                          src={image} 
-                          alt={`NSS Activity ${index + 1}`} 
-                          className="gallery-img"
-                          style={{height: '100%', objectFit: 'cover'}}
-                        />
-                      </div>
-                    </Card>
+                  <Col key={index} md={4} sm={6} className="mb-4" data-aos="fade-up" data-aos-delay={index * 100}>
+                    <div className="nss-gallery-card" onClick={() => handleImageClick(image)}>
+                      <img src={image} alt={`NSS Activity ${index + 1}`} />
+                      <div className="overlay"></div>
+                    </div>
                   </Col>
                 ))
               ) : (
@@ -137,14 +140,14 @@ const NSS = () => {
             
             {/* Full width 16:9 group picture */}
             {groupPicture && (
-              <div className="mt-4">
+              <div className="mt-4" data-aos="fade-up">
                 <h3 className="text-center mb-3">NSS Group Photo</h3>
                 <div className="d-flex justify-content-center">
                   <div className="nss-group-photo-container">
                     <img 
                       src={groupPicture} 
                       alt="NSS Group Photo"
-                      className="nss-group-photo shadow"
+                      className="nss-group-photo"
                     />
                   </div>
                 </div>
@@ -156,9 +159,9 @@ const NSS = () => {
       
       <section className="section bg-light">
         <Container>
-          <h2 className="section-title text-center mb-4">Benefits of NSS</h2>
+          <h2 className="section-title text-center mb-4" data-aos="fade-up">Benefits of NSS</h2>
           <Row>
-            <Col md={4} className="mb-4">
+            <Col md={4} className="mb-4" data-aos="fade-up" data-aos-delay="100">
               <Card className="h-100 shadow-sm">
                 <Card.Body>
                   <h4>Community Service</h4>
@@ -166,7 +169,7 @@ const NSS = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4} className="mb-4">
+            <Col md={4} className="mb-4" data-aos="fade-up" data-aos-delay="200">
               <Card className="h-100 shadow-sm">
                 <Card.Body>
                   <h4>Leadership Skills</h4>
@@ -174,7 +177,7 @@ const NSS = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4} className="mb-4">
+            <Col md={4} className="mb-4" data-aos="fade-up" data-aos-delay="300">
               <Card className="h-100 shadow-sm">
                 <Card.Body>
                   <h4>Personal Growth</h4>
@@ -192,7 +195,7 @@ const NSS = () => {
           <Modal.Title>NSS Photo</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={selectedImage} alt="NSS Photo" style={{ width: '100%', height: 'auto' }} />
+          <img src={selectedImage} alt="NSS Photo" className="img-fluid" />
         </Modal.Body>
       </Modal>
     </div>

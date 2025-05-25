@@ -310,7 +310,7 @@ const Home = () => {
                       <i className="fas fa-file-alt"></i>
                     </div>
                     <h4>Syllabus</h4>
-                    <p>Access course syllabi for all engineering programs and semesters</p>
+                    <p>Access syllabus of all programs and semesters</p>
                     <a href={PDFLinks.getAcademicResourceLink('syllabus')} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary mt-2">View Syllabus</a>
                   </div>
                 </Col>
