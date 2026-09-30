@@ -12,7 +12,7 @@ const ImageLinks = {
   
   // Home Page
   aboutCollege: "/images/about-college.jpg",
-  homeHero: "https://res.cloudinary.com/dewhmewqy/image/upload/v1747592570/campus-hero_zmunhk.jpg",
+  homeHero: "https://res.cloudinary.com/dewhmewqy/image/upload/v1790798041/cruh8.jpg",
   
   // Carousel Images for Homepage
   carousel: [
