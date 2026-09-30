@@ -11,7 +11,7 @@ const ImageLinks = {
   facultyPlaceholder: "/images/faculty-placeholder.jpg",
   
   // Home Page
-  aboutCollege: "/images/about-college.jpg",
+  aboutCollege: "https://res.cloudinary.com/dewhmewqy/image/upload/v1790798041/cruh8.jpg",
   homeHero: "https://res.cloudinary.com/dewhmewqy/image/upload/v1790798041/cruh8.jpg",
   
   // Carousel Images for Homepage
