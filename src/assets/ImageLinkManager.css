@@ -1,0 +1,121 @@
+.image-link-manager-page .page-hero {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #4338ca, #1e40af);
+  position: relative;
+}
+
+.image-link-manager-page .page-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.image-link-manager-page .page-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.image-links-table {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.image-preview {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.image-preview img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.image-preview img:hover {
+  transform: scale(1.1);
+}
+
+.url-cell {
+  position: relative;
+  word-break: break-all;
+  padding-right: 30px;
+  font-size: 0.85rem;
+  font-family: monospace;
+}
+
+.copy-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 5px;
+  color: #4338ca;
+}
+
+.copy-btn:hover {
+  color: #1e40af;
+}
+
+.image-link-manager-page .section {
+  padding: 3rem 0;
+}
+
+.image-link-manager-page .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.image-link-manager-page .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  font-weight: 600;
+}
+
+.image-link-manager-page .tab-content {
+  padding-top: 1rem;
+}
+
+.image-link-manager-page .table thead th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.image-link-manager-page .form-text {
+  font-size: 0.75rem;
+}
+
+.image-link-manager-page .alert {
+  margin-bottom: 2rem;
+}
+
+.admin-nav {
+  display: flex;
+  align-items: center;
+}
+
+.admin-nav .nav-link {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #4338ca;
+  font-weight: 500;
+}
+
+.admin-nav .nav-link.active {
+  background-color: #4338ca;
+  color: white;
+}
+
+.admin-nav .nav-link:hover:not(.active) {
+  background-color: #f3f4f6;
+} 

@@ -1,0 +1,95 @@
+{
+  "title": "Media Coverage",
+  "description": "Latest news and articles featuring Government Engineering College, Barmer",
+  "articles": [
+    {
+      "id": 1,
+      "title": "GEC Barmer Students Win National Robotics Competition",
+      "date": "2024-03-15",
+      "source": "Rajasthan Patrika",
+      "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "summary": "Students from Government Engineering College, Barmer secured first position in the National Robotics Competition held in Jaipur.",
+      "link": "https://example.com/article1"
+    },
+    {
+      "id": 2,
+      "title": "GEC Barmer Launches New Research Center",
+      "date": "2024-03-10",
+      "source": "Times of India",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/research-center.jpg",
+      "summary": "Government Engineering College, Barmer inaugurated its new state-of-the-art research center focusing on sustainable energy solutions.",
+      "link": "https://example.com/article2"
+    },
+    {
+      "id": 3,
+      "title": "GEC Barmer's Contribution to Rural Development",
+      "date": "2024-03-05",
+      "source": "Rajasthan Samachar",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/rural-development.jpg",
+      "summary": "How GEC Barmer's students are making a difference in local communities through innovative projects.",
+      "link": "https://example.com/article3"
+    },
+    {
+      "id": 4,
+      "title": "GEC Barmer Hosts National Technical Symposium",
+      "date": "2024-02-28",
+      "source": "Dainik Bhaskar",
+      "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "summary": "Government Engineering College, Barmer successfully organized a three-day National Technical Symposium attracting participants from across the country.",
+      "link": "https://example.com/article4"
+    },
+    {
+      "id": 5,
+      "title": "GEC Barmer Signs MoU with Leading Tech Companies",
+      "date": "2024-02-20",
+      "source": "Economic Times",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/mou-signing.jpg",
+      "summary": "Government Engineering College, Barmer signed Memorandums of Understanding with five leading technology companies to enhance industry-academia collaboration.",
+      "link": "https://example.com/article5"
+    },
+    {
+      "id": 6,
+      "title": "GEC Barmer Students Develop Solar-Powered Vehicle",
+      "date": "2024-02-15",
+      "source": "Hindustan Times",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/solar-vehicle.jpg",
+      "summary": "A team of mechanical engineering students from GEC Barmer developed an innovative solar-powered vehicle that won accolades at the National Solar Vehicle Challenge.",
+      "link": "https://example.com/article6"
+    }
+  ],
+  "mediaGallery": [
+    {
+      "id": 1,
+      "title": "College Inauguration Coverage",
+      "date": "2024-02-20",
+      "images": [
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/inauguration1.jpg",
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/inauguration2.jpg",
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/inauguration3.jpg"
+      ],
+      "description": "Media coverage of the college's annual inauguration ceremony"
+    },
+    {
+      "id": 2,
+      "title": "Technical Symposium 2024",
+      "date": "2024-02-28",
+      "images": [
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/symposium1.jpg",
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/symposium2.jpg",
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/symposium3.jpg"
+      ],
+      "description": "Highlights from the National Technical Symposium"
+    },
+    {
+      "id": 3,
+      "title": "Industry Collaboration Event",
+      "date": "2024-02-20",
+      "images": [
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/industry1.jpg",
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/industry2.jpg",
+        "https://res.cloudinary.com/demo/image/upload/v1/media-coverage/industry3.jpg"
+      ],
+      "description": "Coverage of MoU signing ceremony with industry partners"
+    }
+  ]
+} 

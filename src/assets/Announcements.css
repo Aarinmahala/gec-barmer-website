@@ -1,0 +1,59 @@
+.announcements-page .page-hero {
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  position: relative;
+}
+
+.announcements-page .page-hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.announcement-card {
+  height: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-important {
+  border-left: 4px solid #dc3545;
+}
+
+.announcement-date {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.announcement-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.announcement-link .btn {
+  transition: all 0.2s ease;
+}
+
+.announcement-link .btn:hover {
+  transform: translateY(-2px);
+}
+
+.announcement-category {
+  margin-left: 0.5rem;
+  align-self: flex-start;
+}
+
+.no-announcements {
+  padding: 3rem 0;
+  color: #6c757d;
+} 

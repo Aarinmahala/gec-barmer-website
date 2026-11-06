@@ -1,0 +1,237 @@
+/* Principal Page Styles */
+.principal-page .page-hero {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+  position: relative;
+}
+
+.principal-page .page-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.principal-page .page-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.principal-page .section {
+  padding: 5rem 0;
+}
+
+.principal-page .section-title {
+  color: #1e3a8a;
+  margin-bottom: 2rem;
+  position: relative;
+  font-weight: 600;
+}
+
+.principal-page .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #0ea5e9;
+}
+
+/* Profile Section */
+.profile-section {
+  background-color: #fff;
+}
+
+.principal-image-container {
+  position: relative;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.principal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.principal-name {
+  color: #1e3a8a;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.principal-designation {
+  font-size: 1.1rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.principal-qualification {
+  font-size: 1rem;
+  color: #0ea5e9;
+  font-weight: 500;
+}
+
+.principal-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.contact-icon {
+  color: #1e3a8a;
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.principal-social {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #1e3a8a;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-3px);
+}
+
+/* Add specific colors for different social platforms */
+.social-link:nth-child(1) {
+  background-color: #0077b5; /* LinkedIn blue */
+}
+
+.social-link:nth-child(2) {
+  background-color: #1da1f2; /* Twitter blue */
+}
+
+.social-link:nth-child(3) {
+  background-color: #4267B2; /* Facebook blue */
+}
+
+.social-link:nth-child(4) {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Instagram gradient */
+}
+
+/* Message Section */
+.message-section {
+  background-color: #f8fafc;
+}
+
+.message-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+}
+
+.message-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+.message-content p:first-of-type {
+  font-weight: 500;
+}
+
+.message-signature {
+  text-align: right;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-top: 2rem;
+}
+
+/* Achievements Section */
+.achievements-section {
+  background-color: #fff;
+}
+
+.achievement-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-title {
+  color: #1e3a8a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+
+.achievement-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #0ea5e9;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .principal-page .section {
+    padding: 4rem 0;
+  }
+  
+  .principal-name {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .principal-page .section {
+    padding: 3rem 0;
+  }
+  
+  .principal-name {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+  
+  .principal-social {
+    justify-content: center;
+  }
+  
+  .achievement-card {
+    margin-bottom: 1rem;
+  }
+} 

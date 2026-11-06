@@ -1,0 +1,60 @@
+/* Global Page Styles */
+.page {
+  scroll-behavior: smooth;
+}
+
+/* Common page classes */
+.home-page,
+.about-page,
+.contact-page,
+.departments-page,
+.courses-page,
+.announcements-page,
+.ncc-page,
+.nss-page,
+.sports-page,
+.placement-page,
+.admin-page {
+  scroll-behavior: smooth;
+}
+
+/* Section styles */
+.section {
+  scroll-behavior: smooth;
+}
+
+/* Container styles */
+.container {
+  scroll-behavior: smooth;
+}
+
+/* Department specific styles */
+.department-detail-page,
+.departments-section,
+.department-card,
+.department-overview,
+.department-programs,
+.department-labs,
+.department-achievements {
+  scroll-behavior: smooth;
+}
+
+/* Leadership specific styles */
+.principal-page,
+.vc-page,
+.registrar-page,
+.leadership-section,
+.leadership-card,
+.leadership-info,
+.leadership-message {
+  scroll-behavior: smooth;
+}
+
+/* Ensure smooth scrolling for all scrollable elements */
+[class*="page"],
+[class*="section"],
+[class*="container"],
+[class*="department"],
+[class*="leadership"] {
+  scroll-behavior: smooth;
+} 

@@ -1,0 +1,302 @@
+/* Hostel Hero Section */
+.hostel-hero {
+  position: relative;
+  height: 400px;
+  background-image: url('https://res.cloudinary.com/demo/image/upload/v1/hostel/hostel-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* General Info Section */
+.general-info-section {
+  padding: 5rem 0;
+}
+
+.info-content h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.info-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info h4 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+.info-image img {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.info-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Facilities Section */
+.facility-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.facility-icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(30, 58, 138, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.facility-icon i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.facility-card .card-title {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.facility-card .card-text {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.features-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.features-list li {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.features-list li::before {
+  content: '•';
+  color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+}
+
+/* Amenities Section */
+.amenity-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.amenity-card:hover {
+  transform: translateY(-5px);
+}
+
+.amenity-icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(30, 58, 138, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.amenity-icon i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.amenity-card .card-title {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.amenity-card .card-text {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* Fees Section */
+.fees-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.fees-details h4 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.fees-list, .payment-schedule {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.fees-list li, .payment-schedule li {
+  color: var(--text-color);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.fees-list li::before, .payment-schedule li::before {
+  content: '•';
+  color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+}
+
+/* Rules Section */
+.rules-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.rules-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.rules-list li {
+  color: var(--text-color);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.rules-list li:last-child {
+  margin-bottom: 0;
+}
+
+.rules-list li i {
+  color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .hostel-hero {
+    height: 350px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hostel-hero {
+    height: 300px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .info-content h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .hostel-hero {
+    height: 250px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .info-content h2 {
+    font-size: 1.6rem;
+  }
+} 

@@ -1,0 +1,33 @@
+{
+  "generalInfo": {
+    "title": "Web Development Team",
+    "description": "Our dedicated team of developers who maintain and enhance the college website.",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+  },
+  "members": [
+    {
+      "name": "Aarin Mahala",
+      "role": "Full Stack Developer",
+      "department": "Computer Science Engineering",
+      "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747904218/im11_ddc3lz.jpg",
+      "skills": ["React", "Node.js", "MongoDB", "Express"],
+      "linkedin": "https://www.linkedin.com/in/aarin-mahala",
+      "github": "https://github.com/aarin-mahala",
+      "portfolio": "https://aarin-mahala.vercel.app",
+      "year": "Second Year",
+      "branch": "CSE { AI & ML }",
+      "email": "aarin.mahala@gecbarmer.ac.in"
+    },
+    {
+      "name": "Aruna Choudhary",
+      "role": "Web Content Writer",
+      "department": "Civil Engineering",
+      "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1748082176/WhatsApp_Image_2025-02-02_at_04.08.40_cda5aa3b_iu2tac.jpg",
+      "skills": ["content writer ", "c", "HTML", "CSS"],
+      "linkedin": "https://www.linkedin.com/in/john-doe",
+      "year": "Second Year",
+      "branch": "Civil",
+      "email": "aruna@gecbarmer.ac.in"
+    }
+  ]
+} 

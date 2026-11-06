@@ -1,0 +1,429 @@
+/* T&P Cell Hero Section */
+.tp-hero {
+  position: relative;
+  height: 500px;
+  background-image: url('https://res.cloudinary.com/demo/image/upload/v1/tp-cell/tp-cell-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+  animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+}
+
+/* Section Styles */
+.section {
+  padding: 5rem 0;
+}
+
+.section-heading {
+  margin-bottom: 3rem;
+}
+
+.section-heading h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-heading h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+.section-heading p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Card Styles */
+.leadership-card,
+.coordinator-card,
+.web-team-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  background: white;
+  position: relative;
+}
+
+.leadership-card:hover,
+.coordinator-card:hover,
+.web-team-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.member-image {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* Creates a 1:1 aspect ratio */
+  overflow: hidden;
+}
+
+.member-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.leadership-card:hover .member-image img,
+.coordinator-card:hover .member-image img,
+.web-team-card:hover .member-image img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-overlay {
+  display: none;
+}
+
+.overlay-content {
+  display: none;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.skill-tag {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  backdrop-filter: blur(5px);
+}
+
+/* Card Content Styles */
+.leadership-card .card-title,
+.coordinator-card .card-title,
+.web-team-card .card-title {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.leadership-card h4,
+.coordinator-card h4,
+.web-team-card h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.department {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.role {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-details p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.contact-details i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+  width: 20px;
+}
+
+/* Contact Section */
+.contact-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.contact-info {
+  padding: 2rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.info-item:hover {
+  transform: translateX(10px);
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-item i {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.info-item p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.contact-info .linkedin-link {
+  color: #0077b5;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.contact-info .linkedin-link:hover {
+  color: #005582;
+  transform: translateX(5px);
+}
+
+.contact-info .info-item i.fa-linkedin {
+  color: #0077b5;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .tp-hero {
+    height: 400px;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.2rem;
+  }
+
+  .member-image {
+    padding-top: 100%; /* Maintain 1:1 ratio on all screen sizes */
+  }
+}
+
+@media (max-width: 767px) {
+  .tp-hero {
+    height: 350px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2rem;
+  }
+
+  .member-image {
+    padding-top: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .tp-hero {
+    height: 300px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .section-heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .member-image {
+    padding-top: 100%;
+  }
+}
+
+.leadership-card .linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0077b5;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.leadership-card .linkedin-link:hover {
+  color: #005582;
+  transform: translateY(-2px);
+}
+
+.leadership-card .linkedin-link i {
+  font-size: 1.2rem;
+}
+
+.year-branch {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.coordinator-card .contact-details {
+  margin-top: 1rem;
+}
+
+.coordinator-card .contact-details p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.coordinator-card .contact-details i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+  width: 20px;
+}
+
+.coordinator-card .linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0077b5;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.coordinator-card .linkedin-link:hover {
+  color: #005582;
+  transform: translateY(-2px);
+}
+
+.coordinator-card .linkedin-link i {
+  font-size: 1.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  color: white;
+}
+
+.social-link.linkedin {
+  background-color: #0077b5;
+}
+
+.social-link.linkedin:hover {
+  background-color: #005582;
+}
+
+.social-link.github {
+  background-color: #333;
+}
+
+.social-link.github:hover {
+  background-color: #24292e;
+}
+
+.social-link.portfolio {
+  background-color: #2ecc71;
+}
+
+.social-link.portfolio:hover {
+  background-color: #27ae60;
+}
+
+.social-link.email {
+  background-color: #e74c3c;
+} 

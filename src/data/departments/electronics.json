@@ -1,0 +1,108 @@
+{
+  "id": "electronics",
+  "name": "Electronics & Communication Engineering",
+  "tagline": "Connecting the world through innovative electronic solutions",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/electronics-hero_awp9dj.webp",
+    "title": "Electronics & Communication Engineering",
+    "subtitle": "Advancing Communication Technologies"
+  },
+  "overview": {
+    "introduction": "The Department of Electronics & Communication Engineering focuses on developing expertise in electronic devices, communication systems, and signal processing while emphasizing emerging technologies.",
+    "description": "Our curriculum combines fundamental electronics and communication principles with modern technologies in VLSI design, wireless communication, and embedded systems. Students gain practical experience through hands-on projects and industry collaborations."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in Electronics & Communication Engineering",
+      "duration": "4 Years",
+      "description": "Comprehensive program covering electronic devices, communication systems, signal processing, and VLSI design with focus on emerging technologies."
+    }
+  ],
+  "labs": [
+    {
+      "name": "VLSI Design Laboratory",
+      "description": "Advanced facility for designing and testing integrated circuits.",
+      "equipment": [
+        "VLSI Design Tools",
+        "FPGA Development Kits",
+        "IC Testing Equipment",
+        "PCB Design Software"
+      ]
+    },
+    {
+      "name": "Communication Systems Laboratory",
+      "description": "Modern laboratory for studying communication systems and protocols.",
+      "equipment": [
+        "Digital Communication Kits",
+        "Wireless Communication Modules",
+        "Signal Processing Tools",
+        "Network Analyzers"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "electronics-001",
+      "name": "Dr. Arun Verma",
+      "designation": "Professor & Head",
+      "qualification": "Ph.D. in Electronics Engineering",
+      "specialization": "VLSI Design, Digital Electronics",
+      "experience": "18+ years",
+      "email": "arun.verma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/arun-verma_awp9dj.webp",
+      "bio": "Dr. Arun Verma specializes in VLSI design with expertise in digital electronics and embedded systems.",
+      "researchAreas": [
+        "VLSI Design",
+        "Digital Electronics",
+        "Embedded Systems"
+      ],
+      "courses": [
+        "VLSI Design",
+        "Digital Electronics",
+        "Embedded Systems"
+      ],
+      "achievements": [
+        "Best Teacher Award 2023",
+        "Research Grant from DST",
+        "Industry Consultancy Projects"
+      ]
+    },
+    {
+      "id": "electronics-002",
+      "name": "Dr. Sneha Patel",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. in Communication Systems",
+      "specialization": "Wireless Communication, Signal Processing",
+      "experience": "12 years",
+      "email": "sneha.patel@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/sneha-patel_awp9dj.webp",
+      "bio": "Dr. Sneha Patel focuses on wireless communication and signal processing with expertise in 5G technologies.",
+      "researchAreas": [
+        "Wireless Communication",
+        "Signal Processing",
+        "5G Technologies"
+      ],
+      "courses": [
+        "Wireless Communication",
+        "Signal Processing",
+        "Digital Communication"
+      ],
+      "achievements": [
+        "Young Scientist Award 2022",
+        "Patent in Wireless Communication",
+        "Industry Collaboration Projects"
+      ]
+    }
+  ],
+  "achievements": [
+    "Ranked among top 50 ECE departments in India",
+    "Industry partnerships with leading electronics companies",
+    "State-of-the-art research facilities",
+    "Excellent placement record"
+  ],
+  "contact": {
+    "email": "electronics@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block E, First Floor, GEC Barmer Campus"
+  }
+} 

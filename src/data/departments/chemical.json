@@ -1,0 +1,110 @@
+{
+  "id": "chemical",
+  "name": "Chemical Engineering",
+  "tagline": "Transforming molecules into innovative solutions for a sustainable future",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/chemical-hero_awp9dj.webp",
+    "title": "Chemical Engineering",
+    "subtitle": "Innovation in Process Technology"
+  },
+  "overview": {
+    "introduction": "The Department of Chemical Engineering provides education and research opportunities in the principles of chemical engineering and their applications to real-world problems.",
+    "description": "Our curriculum combines theoretical knowledge with practical skills in areas such as process design, reaction engineering, separation processes, and plant design. We emphasize sustainable practices and environmentally friendly processes throughout our teaching and research activities. The department maintains strong ties with the chemical and petrochemical industries in the region."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in Chemical Engineering",
+      "duration": "4 Years",
+      "description": "Comprehensive undergraduate program covering fundamental principles and applications of chemical engineering processes."
+    }
+  ],
+  "labs": [
+    {
+      "name": "Unit Operations Laboratory",
+      "description": "Well-equipped lab for hands-on experience with various unit operations in chemical engineering.",
+      "equipment": [
+        "Distillation Columns",
+        "Absorption Towers",
+        "Filtration Units",
+        "Heat Exchangers",
+        "Evaporators"
+      ]
+    },
+    {
+      "name": "Process Control Laboratory",
+      "description": "Modern laboratory for learning control systems used in chemical plants.",
+      "equipment": [
+        "PLC Systems",
+        "Process Simulators",
+        "Control Valves",
+        "Sensors and Transmitters",
+        "SCADA Systems"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "chem-001",
+      "name": "Dr. Rajesh Mehra",
+      "designation": "Professor & Head",
+      "qualification": "Ph.D. in Chemical Engineering",
+      "specialization": "Process Design, Reaction Engineering",
+      "experience": "20+ years",
+      "email": "rajesh.mehra@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/rajesh-mehra_awp9dj.webp",
+      "bio": "Dr. Rajesh Mehra has extensive experience in process design and optimization with numerous industry collaborations.",
+      "researchAreas": [
+        "Process Design",
+        "Reaction Engineering",
+        "Plant Optimization"
+      ],
+      "courses": [
+        "Chemical Process Design",
+        "Reaction Engineering",
+        "Plant Design"
+      ],
+      "achievements": [
+        "Best Teacher Award 2023",
+        "Industry Consultancy Projects",
+        "Research Publications in Top Journals"
+      ]
+    },
+    {
+      "id": "chem-002",
+      "name": "Dr. Neha Singh",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. in Polymer Technology",
+      "specialization": "Polymer Technology, Separation Processes",
+      "experience": "12 years",
+      "email": "neha.singh@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/neha-singh_awp9dj.webp",
+      "bio": "Dr. Neha Singh specializes in polymer technology and separation processes with expertise in membrane technology.",
+      "researchAreas": [
+        "Polymer Technology",
+        "Separation Processes",
+        "Membrane Technology"
+      ],
+      "courses": [
+        "Polymer Technology",
+        "Separation Processes",
+        "Membrane Technology"
+      ],
+      "achievements": [
+        "Young Scientist Award 2021",
+        "Patent in Membrane Technology",
+        "Industry Sponsored Research"
+      ]
+    }
+  ],
+  "achievements": [
+    "Industry-academia partnerships with leading chemical companies",
+    "State-of-the-art research facilities",
+    "Excellent placement record",
+    "Research grants from DST and industry"
+  ],
+  "contact": {
+    "email": "chemical@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block B, Second Floor, GEC Barmer Campus"
+  }
+} 

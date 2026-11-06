@@ -1,0 +1,132 @@
+{
+  "categories": {
+    "classrooms": {
+      "title": "Smart Classrooms",
+      "description": "Modern classrooms equipped with smart boards and audio-visual facilities",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/classroom1.jpg",
+          "alt": "Smart Classroom 1",
+          "caption": "Main Lecture Hall"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/classroom2.jpg",
+          "alt": "Smart Classroom 2",
+          "caption": "Seminar Hall"
+        }
+      ]
+    },
+    "laboratories": {
+      "title": "Laboratories",
+      "description": "State-of-the-art laboratories for practical learning",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/lab1.jpg",
+          "alt": "Computer Lab",
+          "caption": "Computer Laboratory"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/lab2.jpg",
+          "alt": "Electronics Lab",
+          "caption": "Electronics Laboratory"
+        }
+      ]
+    },
+    "library": {
+      "title": "Central Library",
+      "description": "Well-stocked library with digital resources",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/library1.jpg",
+          "alt": "Library Interior",
+          "caption": "Library Reading Hall"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/library2.jpg",
+          "alt": "Digital Section",
+          "caption": "Digital Resource Center"
+        }
+      ]
+    },
+    "sports": {
+      "title": "Sports Facilities",
+      "description": "Comprehensive sports infrastructure for physical development",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/sports1.jpg",
+          "alt": "Sports Ground",
+          "caption": "Main Sports Ground"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/sports2.jpg",
+          "alt": "Indoor Sports",
+          "caption": "Indoor Sports Complex"
+        }
+      ]
+    },
+    "hostel": {
+      "title": "Hostel Facilities",
+      "description": "Comfortable accommodation for students",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/hostel1.jpg",
+          "alt": "Hostel Building",
+          "caption": "Boys Hostel"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/hostel2.jpg",
+          "alt": "Hostel Room",
+          "caption": "Hostel Room Interior"
+        }
+      ]
+    },
+    "cafeteria": {
+      "title": "Cafeteria",
+      "description": "Modern cafeteria with hygienic food facilities",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/cafeteria1.jpg",
+          "alt": "Cafeteria Interior",
+          "caption": "Main Cafeteria"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/cafeteria2.jpg",
+          "alt": "Food Court",
+          "caption": "Food Court"
+        }
+      ]
+    },
+    "auditorium": {
+      "title": "Auditorium",
+      "description": "Spacious auditorium for events and conferences",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/auditorium1.jpg",
+          "alt": "Auditorium Hall",
+          "caption": "Main Auditorium"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/auditorium2.jpg",
+          "alt": "Stage",
+          "caption": "Auditorium Stage"
+        }
+      ]
+    },
+    "wifi": {
+      "title": "WiFi Campus",
+      "description": "High-speed internet connectivity across campus",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/wifi1.jpg",
+          "alt": "Network Center",
+          "caption": "Network Operations Center"
+        },
+        {
+          "url": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747073594/wifi2.jpg",
+          "alt": "WiFi Zone",
+          "caption": "Campus WiFi Coverage"
+        }
+      ]
+    }
+  }
+} 

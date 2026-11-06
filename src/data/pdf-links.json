@@ -1,0 +1,17 @@
+{
+  "studentSupport": {
+    "grievanceRedressal": "/pdfs/grievance-redressal.pdf",
+    "antiRagging": "/pdfs/anti-ragging-policy.pdf",
+    "womenGenderCell": "/pdfs/women-gender-cell.pdf",
+    "scstCell": "/pdfs/sc-st-cell.pdf"
+  },
+  "academicResources": {
+    "syllabus": "/pdfs/syllabus.pdf",
+    "academicCalendar": "/pdfs/academic-calendar.pdf",
+    "results": "/pdfs/results.pdf"
+  },
+  "nationalPrograms": {
+    "nss": "/pdfs/nss-information.pdf",
+    "ncc": "/pdfs/ncc-information.pdf"
+  }
+} 

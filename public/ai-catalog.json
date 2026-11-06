@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ai-catalog.dev/schema/v1.json",
+  "name": "Government Engineering College Barmer (GEC Barmer)",
+  "description": "Official website of Government Engineering College Barmer, Rajasthan. Offering B.Tech programs in CSE (AI & ML), Electrical, Mechanical, Civil, Chemical, Electronics, and Petroleum Engineering. Affiliated to MBM University, Jodhpur.",
+  "url": "https://mediumvioletred-mallard-277738.hostingersite.com/",
+  "category": "Education",
+  "type": "CollegeOrUniversity",
+  "language": "en",
+  "country": "IN",
+  "region": "IN-RJ",
+  "contact": {
+    "email": "principal@gecbarmer.ac.in",
+    "phone": "+91-8118898267"
+  },
+  "resources": [
+    {
+      "name": "llms.txt",
+      "url": "https://mediumvioletred-mallard-277738.hostingersite.com/llms.txt",
+      "description": "Structured information for AI language models and crawlers"
+    },
+    {
+      "name": "Sitemap",
+      "url": "https://mediumvioletred-mallard-277738.hostingersite.com/sitemap.xml",
+      "description": "XML sitemap of all pages"
+    },
+    {
+      "name": "Robots",
+      "url": "https://mediumvioletred-mallard-277738.hostingersite.com/robots.txt",
+      "description": "Robots crawling directives"
+    }
+  ],
+  "pages": [
+    { "path": "/", "name": "Home" },
+    { "path": "/about", "name": "About Us" },
+    { "path": "/departments", "name": "Departments" },
+    { "path": "/departments/cse", "name": "CSE Department" },
+    { "path": "/departments/electrical", "name": "Electrical Engineering" },
+    { "path": "/departments/mechanical", "name": "Mechanical Engineering" },
+    { "path": "/departments/civil", "name": "Civil Engineering" },
+    { "path": "/departments/chemical", "name": "Chemical Engineering" },
+    { "path": "/departments/electronics", "name": "Electronics Engineering" },
+    { "path": "/departments/petroleum", "name": "Petroleum Engineering" },
+    { "path": "/admission", "name": "Admission" },
+    { "path": "/faculty", "name": "Faculty" },
+    { "path": "/academics", "name": "Academics" },
+    { "path": "/contact", "name": "Contact Us" }
+  ],
+  "permissions": {
+    "crawling": true,
+    "training": "allowed-non-commercial",
+    "summarization": true,
+    "attribution": "Government Engineering College Barmer (GEC Barmer), Official Website"
+  }
+}

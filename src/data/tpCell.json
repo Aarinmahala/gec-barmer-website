@@ -1,0 +1,92 @@
+{
+  "generalInfo": {
+    "title": "Training & Placement Cell",
+    "description": "The Training & Placement Cell at GEC Barmer is dedicated to facilitating the career growth of our students by connecting them with leading organizations and providing comprehensive training programs.",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+  },
+  "leadership": [
+    {
+      "title": "Professor Incharge, Training and Placement",
+      "name": "Mr.Himanshu Dave",
+      "department": "Computer Science Engineering",
+      "email": "tp.incharge@gecbarmer.ac.in",
+      "phone": "+91-XXXXXXXXXX",
+      "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "description": "Oversees the overall functioning of the Training & Placement Cell and ensures the successful placement of students.",
+      "linkedin": "https://www.linkedin.com/in/john-doe"
+    },
+    {
+      "title": "Training & Placement Officer",
+      "name": "Mr.unknown",
+      "department": "Mechanical Engineering",
+      "email": "tpo1@gecbarmer.ac.in",
+      "phone": "+91-XXXXXXXXXX",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/tp-cell/tpo1.jpg",
+      "description": "Manages day-to-day operations of the placement cell and coordinates with recruiters.",
+      "linkedin": "https://www.linkedin.com/in/jane-smith"
+    },
+    {
+      "title": "Training & Placement Officer",
+      "name": "Mr.unknown",
+      "department": "Electrical Engineering",
+      "email": "tpo2@gecbarmer.ac.in",
+      "phone": "+91-XXXXXXXXXX",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1/tp-cell/tpo2.jpg",
+      "description": "Coordinates with industry partners and manages placement drives.",
+      "linkedin": "https://www.linkedin.com/in/michael-brown"
+    }
+  ],
+  "coordinators": {
+    "title": "Overall Co-Ordinators",
+    "description": "Our student coordinators who assist in managing various aspects of the Training & Placement Cell.",
+    "members": [
+      {
+        "name": "Laxman ",
+        "department": "Technical Coordinator",
+        "role": "Technical Coordinator",
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747937949/WhatsApp_Image_2025-05-22_at_23.32.56_1a1630a8_nzfiuc.jpg",
+        "year": "Third Year",
+        "branch": "Civil",
+        "email": "laxman@gecbarmer.ac.in",
+        "linkedin": "https://www.linkedin.com/in/sarah-johnson"
+      },
+      {
+        "name": "Krishna shrama",
+        "department": "Placement Coordinator",
+        "role": "Placement Coordinator",
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747937532/KRISHNA_qfxhw4.jpg",
+        "year": "Third Year",
+        "branch": "CSE { AI & ML }",
+        "email": "krishna@gecbarmer.ac.in",
+        "linkedin": "https://www.linkedin.com/in/david-wilson"
+      },
+      {
+        "name": "Bhupendra Bhati",
+        "department": "Training Coordinator",
+        "role": "Training Coordinator",
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747937179/WhatsApp_Image_2025-05-22_at_23.32.56_c1d72b3d_rsbcvu.jpg",
+        "year": "Third Year",
+        "branch": "CSE { AI & ML }",
+        "email": "bhupender@gecbarmer.ac.in",
+        "linkedin": "https://www.linkedin.com/in/emily-davis"
+      },
+      {
+        "name": "Kunal",
+        "department": "Industry Relations Coordinator",
+        "role": "Industry Relations Coordinator",
+        "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747937180/WhatsApp_Image_2025-05-22_at_23.32.55_063f31af_wlvh6q.jpg",
+        "year": "Third Year",
+        "branch": "CSE { AI & ML }",
+        "email": "kunal@gecbarmer.ac.in",
+        "linkedin": "https://www.linkedin.com/in/james-miller"
+      }
+    ]
+  },
+  "contactInfo": {
+    "address": "Office of Training & Placement, Government Engineering College, Barmer, Rajasthan - 344001",
+    "email": "placement@gecbarmer.ac.in",
+    "phone": "+91-XXXXXXXXXX",
+    "workingHours": "Monday to Friday, 9:00 AM to 5:00 PM",
+    "linkedin": "https://www.linkedin.com/company/gec-barmer-tp-cell"
+  }
+} 

@@ -1,0 +1,263 @@
+{
+  "hero": {
+    "title": "Our Faculty",
+    "subtitle": "Meet our distinguished faculty members",
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpgy"
+  },
+  "faculty": [
+    {
+      "id": "fac-001",
+      "name": "Mr. jeya ram  choudhary",
+      "designation": "Professor",
+      "department": "Computer Science & Engineering",
+      "qualification": "Ph.D. in Computer Science",
+      "specialization": "Artificial Intelligence",
+      "experience": "15 years",
+      "email": "rajesh.kumar@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747937949/WhatsApp_Image_2025-05-22_at_23.32.56_1a1630a8_nzfiuc.jpg",
+      "linkedin": "https://linkedin.com/in/dr-rajesh-kumar"
+    },
+    {
+      "id": "fac-002",
+      "name": "Mr. Deepk kumar",
+      "designation": "Associate Professor",
+      "department": "Electronics & Communication",
+      "qualification": "Ph.D. in Electronics",
+      "specialization": "VLSI Design",
+      "experience": "12 years",
+      "email": "priya.sharma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "linkedin": "https://linkedin.com/in/dr-priya-sharma"
+    },
+    {
+      "id": "fac-003",
+      "name": "Mr.trilok",
+      "designation": "Assistant Professor",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D. in Mechanical Engineering",
+      "specialization": "Thermal Engineering",
+      "experience": "8 years",
+      "email": "amit.patel@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "linkedin": "https://linkedin.com/in/dr-amit-patel"
+    },
+    {
+      "id": "fac-004",
+      "name": "Mr.papu ",
+      "designation": "Professor",
+      "department": "Chemical Engineering",
+      "qualification": "Ph.D. in Chemical Engineering",
+      "specialization": "Process Design",
+      "experience": "18 years",
+      "email": "neha.gupta@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "linkedin": "https://linkedin.com/in/dr-neha-gupta"
+    },
+    {
+      "id": "fac-005",
+      "name": "Mr. Vikram Singh",
+      "designation": "Associate Professor",
+      "department": "Electrical Engineering",
+      "qualification": "Ph.D. in Electrical Engineering",
+      "specialization": "Power Systems",
+      "experience": "10 years",
+      "email": "vikram.singh@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "linkedin": "https://linkedin.com/in/dr-vikram-singh"
+    },
+    {
+      "id": "fac-006",
+      "name": "Miss.Anukriti",
+      "designation": "Assistant Professor",
+      "department": "Civil Engineering",
+      "qualification": "Ph.D. in Civil Engineering",
+      "specialization": "Structural Engineering",
+      "experience": "6 years",
+      "email": "anjali.verma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "linkedin": "https://linkedin.com/in/dr-anjali-verma"
+    },
+    {
+      "id": "fac-007",
+      "name": "Dr. Rajesh Kumar",
+      "designation": "Professor",
+      "department": "Petroleum Engineering",
+      "qualification": "Ph.D. in Petroleum Engineering",
+      "specialization": "Reservoir Engineering",
+      "experience": "20 years",
+      "email": "rajesh.kumar@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "linkedin": "https://linkedin.com/in/dr-rajesh-kumar-petroleum"
+    },
+    {
+      "id": "fac-008",
+      "name": "Dr. Priya Singh",
+      "designation": "Associate Professor",
+      "department": "Electronics & Communication",
+      "qualification": "Ph.D. in Information Security",
+      "specialization": "Cybersecurity, Cryptography",
+      "experience": "10 years",
+      "email": "priya.singh@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg",
+      "bio": "Dr. Singh specializes in information security and has worked on several government projects related to cryptography.",
+      "researchAreas": [
+        "Cybersecurity",
+        "Network Security",
+        "Cryptography"
+      ],
+      "courses": [
+        "Information Security",
+        "Network Security",
+        "Blockchain Technology"
+      ],
+      "achievements": [
+        "Young Scientist Award 2019",
+        "5 patents in cybersecurity",
+        "Consultant for National Cyber Security Project"
+      ]
+    },
+    {
+      "id": "fac-009",
+      "name": "Dr. Arun Verma",
+      "designation": "Professor",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D. in Thermal Engineering",
+      "specialization": "Heat Transfer, Fluid Mechanics",
+      "experience": "18 years",
+      "email": "arun.verma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/arun-verma_awp9dj.webp"
+    },
+    {
+      "id": "fac-010",
+      "name": "Dr. Neha Sharma",
+      "designation": "Associate Professor",
+      "department": "Civil Engineering",
+      "qualification": "Ph.D. in Structural Engineering",
+      "specialization": "Structural Analysis, Earthquake Engineering",
+      "experience": "12 years",
+      "email": "neha.sharma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/neha-sharma_awp9dj.webp"
+    },
+    {
+      "id": "fac-011",
+      "name": "Dr. Vikram Patel",
+      "designation": "Professor & Head",
+      "department": "Electrical Engineering",
+      "qualification": "Ph.D. in Power Systems",
+      "specialization": "Power Electronics, Renewable Energy",
+      "experience": "20 years",
+      "email": "vikram.patel@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/vikram-patel_awp9dj.webp"
+    },
+    {
+      "id": "fac-012",
+      "name": "Dr. Anjali Gupta",
+      "designation": "Associate Professor",
+      "department": "Chemical Engineering",
+      "qualification": "Ph.D. in Process Design",
+      "specialization": "Process Optimization, Chemical Kinetics",
+      "experience": "14 years",
+      "email": "anjali.gupta@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/anjali-gupta_awp9dj.webp"
+    },
+    {
+      "id": "fac-013",
+      "name": "Dr. Rahul Mehta",
+      "designation": "Professor",
+      "department": "Petroleum Engineering",
+      "qualification": "Ph.D. in Reservoir Engineering",
+      "specialization": "Enhanced Oil Recovery, Reservoir Simulation",
+      "experience": "16 years",
+      "email": "rahul.mehta@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/rahul-mehta_awp9dj.webp"
+    },
+    {
+      "id": "fac-014",
+      "name": "Dr. Sneha Reddy",
+      "designation": "Associate Professor",
+      "department": "Computer Science & Engineering",
+      "qualification": "Ph.D. in Data Science",
+      "specialization": "Big Data Analytics, Cloud Computing",
+      "experience": "11 years",
+      "email": "sneha.reddy@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-015",
+      "name": "Dr. Manoj Kumar",
+      "designation": "Professor",
+      "department": "Electronics & Communication",
+      "qualification": "Ph.D. in VLSI Design",
+      "specialization": "VLSI Design, Embedded Systems",
+      "experience": "17 years",
+      "email": "manoj.kumar@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-016",
+      "name": "Dr. Pooja Sharma",
+      "designation": "Associate Professor",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D. in Manufacturing",
+      "specialization": "Advanced Manufacturing, Robotics",
+      "experience": "13 years",
+      "email": "pooja.sharma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-017",
+      "name": "Dr. Rajiv Malhotra",
+      "designation": "Professor & Head",
+      "department": "Civil Engineering",
+      "qualification": "Ph.D. in Geotechnical Engineering",
+      "specialization": "Soil Mechanics, Foundation Engineering",
+      "experience": "19 years",
+      "email": "rajiv.malhotra@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-018",
+      "name": "Dr. Anita Desai",
+      "designation": "Associate Professor",
+      "department": "Electrical Engineering",
+      "qualification": "Ph.D. in Control Systems",
+      "specialization": "Control Systems, Automation",
+      "experience": "12 years",
+      "email": "anita.desai@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-019",
+      "name": "Dr. Sanjay Verma",
+      "designation": "Professor",
+      "department": "Chemical Engineering",
+      "qualification": "Ph.D. in Polymer Technology",
+      "specialization": "Polymer Technology, Nanomaterials",
+      "experience": "15 years",
+      "email": "sanjay.verma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-020",
+      "name": "Dr. Meera Patel",
+      "designation": "Associate Professor",
+      "department": "Petroleum Engineering",
+      "qualification": "Ph.D. in Drilling Engineering",
+      "specialization": "Drilling Technology, Well Completion",
+      "experience": "11 years",
+      "email": "meera.patel@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    },
+    {
+      "id": "fac-021",
+      "name": "Dr. Amit Shah",
+      "designation": "Professor",
+      "department": "Computer Science & Engineering",
+      "qualification": "Ph.D. in Computer Networks",
+      "specialization": "Computer Networks, Network Security",
+      "experience": "16 years",
+      "email": "amit.shah@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747941371/demo1_lkd0kr.jpg"
+    }
+  ]
+} 

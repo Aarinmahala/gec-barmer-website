@@ -1,0 +1,31 @@
+{
+  "short_name": "GEC Barmer",
+  "name": "Government Engineering College Barmer, Rajasthan",
+  "description": "Official website of Government Engineering College Barmer (GEC Barmer), Rajasthan. B.Tech programs affiliated to MBM University, Jodhpur.",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747061105/logo512_c07sdw.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747061105/logo512_c07sdw.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747061105/logo512_c07sdw.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0d4f8b",
+  "background_color": "#ffffff",
+  "categories": ["education"],
+  "lang": "en-IN",
+  "orientation": "portrait-primary"
+}

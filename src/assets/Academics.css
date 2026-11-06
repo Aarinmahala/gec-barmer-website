@@ -1,0 +1,238 @@
+/* Academics Page Styles */
+.academics-page {
+  background-color: #fff;
+}
+
+/* Hero Section */
+.academics-hero {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.academics-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.academics-hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Programs Section */
+.programs-section {
+  padding: 80px 0;
+}
+
+.program-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+.program-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.program-icon i {
+  font-size: 24px;
+  color: #0d6efd;
+}
+
+.program-card .card-title {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Calendar Section */
+.calendar-section {
+  background-color: #f8f9fa;
+}
+
+.calendar-events {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.calendar-event {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  background-color: white;
+}
+
+.calendar-event:last-child {
+  border-bottom: none;
+}
+
+.event-date {
+  min-width: 120px;
+  padding-right: 1.5rem;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.event-content h5 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.event-content p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+/* Announcements Section */
+.announcements-list {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.announcement-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  background-color: white;
+}
+
+.announcement-item:last-child {
+  border-bottom: none;
+}
+
+.announcement-date {
+  min-width: 120px;
+  padding-right: 1.5rem;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.announcement-content h5 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.announcement-content p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+/* Quick Links Section */
+.quick-links-section {
+  background-color: #f8f9fa;
+}
+
+.quick-links-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.quick-links-card h4 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.quick-links-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.quick-links-card ul li {
+  margin-bottom: 0.75rem;
+}
+
+.quick-links-card ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.quick-links-card ul li a:hover {
+  color: #0d6efd;
+}
+
+/* Section Heading */
+.section-heading {
+  margin-bottom: 3rem;
+}
+
+.section-heading h2 {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heading-line {
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .academics-hero {
+    padding: 60px 0;
+  }
+
+  .academics-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .academics-hero p {
+    font-size: 1rem;
+  }
+
+  .calendar-event,
+  .announcement-item {
+    flex-direction: column;
+  }
+
+  .event-date,
+  .announcement-date {
+    min-width: auto;
+    padding-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-heading {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .academics-hero h1 {
+    font-size: 2rem;
+  }
+
+  .program-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .program-icon i {
+    font-size: 20px;
+  }
+} 

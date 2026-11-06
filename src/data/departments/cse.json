@@ -1,0 +1,108 @@
+{
+  "id": "cse",
+  "name": "Computer Science Engineering (AI & ML)",
+  "tagline": "Leading the digital transformation with cutting-edge AI and ML technologies",
+  "hero": {
+    "image": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747061992/colleg_jpg",
+    "title": "Computer Science Engineering",
+    "subtitle": "Specialization in AI & Machine Learning"
+  },
+  "overview": {
+    "introduction": "The Department of Computer Science Engineering with specialization in AI & Machine Learning is committed to preparing students for the technological challenges of tomorrow.",
+    "description": "Our program offers a comprehensive curriculum that covers fundamental computer science principles along with specialized courses in artificial intelligence, machine learning, data science, and neural networks. Students gain hands-on experience through projects, internships, and industry collaborations, equipping them with the skills needed to thrive in this rapidly evolving field."
+  },
+  "programs": [
+    {
+      "name": "B.Tech in CSE (AI & ML)",
+      "duration": "4 Years",
+      "description": "A comprehensive undergraduate program that combines core computer science subjects with specialized courses in artificial intelligence and machine learning."
+    }
+  ],
+  "labs": [
+    {
+      "name": "AI & Machine Learning Lab",
+      "description": "Dedicated laboratory equipped with high-performance computing systems and latest AI/ML software tools.",
+      "equipment": [
+        "NVIDIA GPU Servers for Deep Learning",
+        "IBM Watson Workbenches",
+        "Cloud Computing Access (AWS/Azure/Google)",
+        "AI/ML Frameworks and Libraries"
+      ]
+    },
+    {
+      "name": "Computer Networks Lab",
+      "description": "Modern networking lab for practical learning of computer network concepts and protocols.",
+      "equipment": [
+        "Cisco Networking Equipment",
+        "Network Simulation Software",
+        "Wireless Communication Devices",
+        "Network Security Tools"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "cse-001",
+      "name": "Dr. Aditya Sharma",
+      "designation": "Associate Professor & Head",
+      "qualification": "Ph.D. in Computer Science",
+      "specialization": "Machine Learning, Computer Vision",
+      "experience": "15+ years",
+      "email": "aditya.sharma@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/aditya-sharma_awp9dj.webp",
+      "bio": "Dr. Aditya Sharma specializes in machine learning and computer vision with extensive research experience in deep learning applications.",
+      "researchAreas": [
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "courses": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision"
+      ],
+      "achievements": [
+        "Best Paper Award at IEEE Conference 2023",
+        "Research Grant from DST",
+        "Patent in AI-based Image Processing"
+      ]
+    },
+    {
+      "id": "cse-002",
+      "name": "Dr. Priya Patel",
+      "designation": "Assistant Professor",
+      "qualification": "Ph.D. in Artificial Intelligence",
+      "specialization": "Natural Language Processing, Big Data",
+      "experience": "8 years",
+      "email": "priya.patel@gecbarmer.ac.in",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747740546/faculty/priya-patel_awp9dj.webp",
+      "bio": "Dr. Priya Patel focuses on natural language processing and big data analytics with expertise in developing AI solutions for real-world problems.",
+      "researchAreas": [
+        "NLP",
+        "Big Data Analytics",
+        "Machine Learning"
+      ],
+      "courses": [
+        "Natural Language Processing",
+        "Big Data Analytics",
+        "Python Programming"
+      ],
+      "achievements": [
+        "Young Scientist Award 2022",
+        "Published 15+ Research Papers",
+        "Industry Collaboration Projects"
+      ]
+    }
+  ],
+  "achievements": [
+    "Ranked among top 50 CSE departments in India",
+    "100% placement record for the last 3 years",
+    "Industry partnerships with leading tech companies",
+    "State-of-the-art research facilities"
+  ],
+  "contact": {
+    "email": "cse@gecbarmer.ac.in",
+    "phone": "+91-9460394649",
+    "location": "Block A, First Floor, GEC Barmer Campus"
+  }
+} 

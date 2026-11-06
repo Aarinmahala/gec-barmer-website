@@ -1,0 +1,14 @@
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /admin
+
+# Sitemap location
+Sitemap: https://mediumvioletred-mallard-277738.hostingersite.com/sitemap.xml

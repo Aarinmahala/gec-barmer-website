@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "Student Activity Council",
+    "subtitle": "Meet our student leaders",
+    "image": "https://placehold.co/1920x600/1a237e/ffffff?text=Student+Activity+Council"
+  },
+  "council": [
+    {
+      "id": "sac-001",
+      "name": "Padam Kishor ",
+      "post": "President",
+      "year": "4th Year",
+      "branch": "Computer Science & Engineering",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747938137/padma_v98esi.jpg",
+      "linkedin": "https://linkedin.com/in/rahul-sharma-cse"
+    },
+    {
+      "id": "sac-002",
+      "name": "Padam Kishor ",
+      "post": "Vice President",
+      "year": "4th Year",
+      "branch": "Electronics & Communication",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747938137/padma_v98esi.jpg",
+      "linkedin": "https://linkedin.com/in/priya-patel-ec"
+    },
+    {
+      "id": "sac-003",
+      "name": "Laxman Beniwal",
+      "post": "T&P Coordinator",
+      "year": "3th Year",
+      "branch": "Civil Engineering",
+      "photo":"https://res.cloudinary.com/dewhmewqy/image/upload/v1747937949/WhatsApp_Image_2025-05-22_at_23.32.56_1a1630a8_nzfiuc.jpg",
+      "linkedin": "https://linkedin.com/in/amit-kumar-mech"
+    },
+    {
+      "id": "sac-004",
+      "name": "omparkash ",
+      "post": "General Secretary",
+      "year": "4th Year",
+      "branch": "Chemical Engineering",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747938562/om_jdii9z.jpg",
+      "linkedin": "https://linkedin.com/in/neha-gupta-chem"
+    },
+    {
+      "id": "sac-005",
+      "name": "Balaji",
+      "post": "Academics Coordinator",
+      "year": "4th Year",
+      "branch": "Electrical Engineering",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747938561/balaji_k4qzjc.jpg",
+      "linkedin": "https://linkedin.com/in/vikram-singh-ee"
+    },
+    {
+      "id": "sac-006",
+      "name": "Jadish Huda",
+      "post": "Alumni Association Coordinator",
+      "year": "4th Year",
+      "branch": "Civil Engineering",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747938562/jadish_ifgzho.jpg",
+      "linkedin": "https://linkedin.com/in/anjali-verma-civil"
+    },
+    {
+      "id": "sac-007",
+      "name": "Parkash",
+      "post": "Sports Coordinator",
+      "year": "4th Year",
+      "branch": "Petroleum Engineering",
+      "photo": "https://res.cloudinary.com/dewhmewqy/image/upload/v1747939294/pku_chfqaq.jpg",
+      "linkedin": "https://linkedin.com/in/rajesh-kumar-petroleum"
+    }
+  ]
+} 

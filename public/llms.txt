@@ -1,0 +1,490 @@
+# Government Engineering College Barmer (GEC Barmer)
+
+> Government Engineering College Barmer (GEC Barmer) is an autonomous government engineering institution located in Barmer, Rajasthan, India. It is affiliated with MBM University, Jodhpur, and offers B.Tech programs in seven engineering disciplines. This file provides structured, authoritative information about the college for use by AI systems, search engines, and language models.
+
+## Quick Links
+
+- [Official Website](https://mediumvioletred-mallard-277738.hostingersite.com/)
+- [About GEC Barmer](https://mediumvioletred-mallard-277738.hostingersite.com/about)
+- [Departments](https://mediumvioletred-mallard-277738.hostingersite.com/departments)
+- [Admissions](https://mediumvioletred-mallard-277738.hostingersite.com/admission)
+- [Faculty](https://mediumvioletred-mallard-277738.hostingersite.com/faculty)
+- [Contact Us](https://mediumvioletred-mallard-277738.hostingersite.com/contact)
+- [Sitemap](https://mediumvioletred-mallard-277738.hostingersite.com/sitemap.xml)
+- [GitHub Repository](https://github.com/Aarinmahala/gec-barmer-website)
+
+> **Standard:** [llms.txt](https://llmstxt.org) | **Last updated:** 2026-11-05
+
+---
+
+## Identity & Basic Information
+
+- **Official Name:** Government Engineering College Barmer
+- **Short Name / Abbreviation:** GEC Barmer
+- **Also Known As:** GEC Barmer Rajasthan, Govt. Engineering College Barmer
+- **Type:** Government (Public) Engineering Institution
+- **Established:** Barmer, Rajasthan, India
+- **Affiliation:** MBM University, Jodhpur, Rajasthan
+- **Official Website:** https://mediumvioletred-mallard-277738.hostingersite.com/
+- **GitHub (Source Code):** https://github.com/Aarinmahala/gec-barmer-website
+- **Category:** CollegeOrUniversity (schema.org)
+- **Language:** English (Primary), Hindi (Administrative)
+- **Country:** India
+- **State:** Rajasthan
+- **Region Code:** IN-RJ
+
+
+---
+
+## Location & Contact
+
+- **Address:** Govt. Engineering College Barmer, Govt. Polytechnic College Campus, N.H. 68, Jaisalmer Road, Barmer, Rajasthan — 344001, India
+- **Coordinates:** Latitude 25.7462, Longitude 71.3936
+- **Nearest Railway Station:** Barmer Railway Station
+- **Nearest Airport:** Jodhpur Airport
+
+### Phone Numbers
+- +91-8118898267
+- +91-8290521985
+- +91-8290466983
+- +91-9462723142
+
+### Email Addresses
+- principal@gecbarmer.ac.in (Principal's Office)
+- admissions@gecbarmer.ac.in (Admissions Cell)
+- webteam@gecbarmer.ac.in (Web Development Team)
+
+### Office Hours
+- Monday to Friday: 9:00 AM – 5:00 PM
+- Saturday: 9:00 AM – 1:00 PM
+- Sunday: Closed
+
+
+---
+
+## Vision & Mission
+
+### Vision
+To be a premier institution of technical education, fostering innovation, research, and excellence in engineering education while contributing to the development of society.
+
+### Mission
+- Provide quality technical education through innovative teaching-learning methods
+- Foster research and development activities
+- Develop industry-academia collaboration
+- Promote entrepreneurship and innovation
+- Create responsible citizens and leaders
+
+
+---
+
+## Academic Programs (B.Tech — 4 Year Undergraduate)
+
+GEC Barmer offers Bachelor of Technology (B.Tech) programs in the following seven engineering disciplines:
+
+### 1. Computer Science Engineering (AI & ML)
+- **Route:** /departments/cse
+- **Focus:** Artificial Intelligence, Machine Learning, Data Structures, Algorithms, Software Engineering, Cloud Computing, Deep Learning, Computer Networks
+- **Intake:** As per REAP counselling
+
+### 2. Electrical Engineering
+- **Route:** /departments/electrical
+- **Focus:** Power Systems, Control Systems, Electrical Machines, Circuit Theory, Power Electronics, Renewable Energy Systems
+- **Intake:** As per REAP counselling
+
+### 3. Mechanical Engineering
+- **Route:** /departments/mechanical
+- **Focus:** Thermodynamics, Manufacturing Processes, Machine Design, Fluid Mechanics, Industrial Engineering, CAD/CAM
+- **Intake:** As per REAP counselling
+
+### 4. Civil Engineering
+- **Route:** /departments/civil
+- **Focus:** Structural Engineering, Construction Management, Environmental Engineering, Geotechnical Engineering, Transportation Engineering, Surveying
+- **Intake:** As per REAP counselling
+
+### 5. Chemical Engineering
+- **Route:** /departments/chemical
+- **Focus:** Chemical Processes, Industrial Chemistry, Process Optimization, Mass Transfer, Heat Transfer, Reaction Engineering
+- **Intake:** As per REAP counselling
+
+### 6. Electronics & Communication Engineering
+- **Route:** /departments/electronics
+- **Focus:** Electronic Devices, Digital Circuits, Microprocessors, Communication Systems, Signal Processing, VLSI Design, Embedded Systems
+- **Intake:** As per REAP counselling
+
+### 7. Petroleum Engineering
+- **Route:** /departments/petroleum
+- **Focus:** Oil and Gas Exploration, Reservoir Engineering, Drilling Engineering, Production Engineering, Well Logging, Petroleum Geology
+- **Intake:** As per REAP counselling
+- **Note:** One of the rare colleges in Rajasthan to offer Petroleum Engineering at B.Tech level
+
+
+---
+
+## Admission Process
+
+- **Admission Authority:** REAP (Rajasthan Engineering Admission Process)
+- **Entrance Exam Required:** JEE Main
+- **Process:** Qualify JEE Main → Register for REAP counselling → Allotment based on rank and preference
+- **REAP Portal:** https://reapraj.com
+- **Admission Contact:** admissions@gecbarmer.ac.in
+
+### Eligibility Criteria
+- Passed 10+2 (or equivalent) with Physics, Chemistry, and Mathematics
+- Qualified JEE Main (conducted by NTA)
+- Meeting REAP cut-off for respective category and branch
+
+### Documents Required (Academic)
+- 10th Marksheet and Certificate
+- 12th Marksheet and Certificate
+- JEE Main Scorecard
+- REAP Allotment Letter
+- Migration Certificate / Transfer Certificate
+
+### Documents Required (Personal)
+- Domicile Certificate (Rajasthan)
+- Caste/Category Certificate (if applicable)
+- Income Certificate (if applicable)
+- Passport-size Photographs
+- Aadhaar Card / Government ID
+
+### Fee Structure (Approximate)
+- Fees are subject to change as per Government of Rajasthan regulations
+- First Semester: Higher (includes one-time deposits)
+- Subsequent Semesters: Lower (recurring fees only)
+- SC/ST/OBC students: Eligible for scholarship/fee concession as per government norms
+
+
+---
+
+## College Statistics
+
+| Metric | Value |
+|---|---|
+| Engineering Disciplines | 7 |
+| Faculty Members | 50+ |
+| Total Students | 1000+ |
+| Campus | Govt. Polytechnic College Campus, Barmer |
+| Library Books | Available |
+| Hostels | Separate for Boys and Girls |
+| Sports Facilities | Available |
+
+
+---
+
+## Campus Facilities
+
+### Library
+- **Route:** /library
+- Extensive collection of technical books, journals, and digital resources
+- Books across all engineering disciplines
+- Print and online journals available
+- Digital resources and e-learning access
+- Working Hours: Weekdays 9 AM–5 PM, Saturday 9 AM–1 PM, Sunday Closed
+
+### Hostel
+- **Route:** /hostel
+- Separate hostel facilities for boys and girls
+- Well-furnished rooms
+- Mess facilities
+- Wi-Fi connectivity
+- Recreational areas
+
+### Training & Placement (T&P) Cell
+- **Route:** /tp-cell
+- Dedicated Training & Placement Cell for campus placements
+- Facilitates internships and industry exposure
+- Collaborations with companies for placement and training
+- Maintains LinkedIn presence for professional networking
+- Student placement coordinators from each branch
+
+### Sports
+- State-of-the-art sports facilities
+- Inter-college tournaments
+- Sports teams representing the college
+
+### Wi-Fi Campus
+- Wi-Fi connectivity across campus and hostels
+
+
+---
+
+## Student Life & Extra-Curricular
+
+### National Service Scheme (NSS)
+- **Route:** /nss
+- **Motto:** "Not Me But You"
+- Government of India sponsored public service program
+- Engages students in community service, blood donation camps, cleanliness drives, awareness campaigns
+- Develops personality, character, leadership, and social responsibility
+- Benefits: Community service experience, leadership skills, personal growth
+
+### National Cadet Corps (NCC)
+- **Route:** /ncc
+- Military discipline and leadership training
+- Participation in national-level camps and parades
+- Develops leadership and teamwork skills
+- Uniform service for youth development
+
+### Student Activity Council
+- **Route:** /student-activity-council
+- Governing body for student activities and events
+- Organizes cultural, technical, and sports events
+
+### Student Clubs
+- **Route:** /student-clubs
+- Multiple technical and cultural clubs
+- Robotics, Coding, Cultural, Literary, and other clubs
+
+### Gallery
+- **Route:** /gallery
+- Photo gallery of events, activities, and campus life
+
+
+---
+
+## Academic Resources
+
+### Syllabus
+- **Route:** /academics/syllabus
+- Syllabus for all B.Tech programs and all semesters
+- Affiliated to MBM University, Jodhpur
+
+### Academic Calendar
+- **Route:** /academics/calendar
+- Important dates for exams, events, and academic activities
+
+### Results
+- **External Link:** https://mbmiums.in/Results/ExamResult.aspx
+- Semester examination results through MBM University portal
+
+### Announcements
+- **Route:** /announcements
+- Latest updates, notices, circulars, and important information
+- Updated regularly by admin
+
+### Academics Overview
+- **Route:** /academics
+
+
+---
+
+## Student Support Services
+
+### Grievance Redressal Cell
+- Transparent grievance submission and tracking system
+- Students can submit complaints and track resolution
+
+### Anti-Ragging Cell
+- Ensuring a safe and respectful campus environment
+- Zero tolerance for ragging
+- Complaint mechanism available
+
+### Women & Gender Cell
+- Promoting gender equality on campus
+- Addressing women's welfare issues
+- Support for female students
+
+### SC-ST Cell
+- Supporting and empowering SC/ST students
+- Dedicated programs and resources
+- Scholarship and welfare assistance
+
+
+---
+
+## Leadership & Administration
+
+### Principal's Office
+- **Route:** /principal
+- Head of the institution
+- Contact: principal@gecbarmer.ac.in
+
+### Vice Chancellor
+- **Route:** /vice-chancellor
+- MBM University, Jodhpur (parent university)
+
+### Registrar
+- **Route:** /registrar
+- Administrative head for academic and administrative matters
+
+### Faculty
+- **Route:** /faculty
+- 50+ qualified faculty members across 7 departments
+- Mix of experienced professors and young researchers
+
+### Leadership Team
+- **Route:** /leadership
+- Governing council and academic leadership profiles
+
+
+---
+
+## Industry & External Relations
+
+### Industry Associations
+- **Route:** /industry-associations
+- MoUs and collaborations with industry partners
+- Industry-academia interface programs
+
+### Training & Placement
+- Campus recruitment drives
+- Industry visits and internship programs
+- Pre-placement training and soft skills development
+
+### Media Coverage
+- **Route:** /media-coverage
+- News and press coverage of GEC Barmer events and achievements
+
+
+---
+
+## Governance & Policies
+
+### Tenders & Orders
+- **Route:** /tenders
+- Official tenders, purchase orders, and procurement notices
+- Updated regularly
+
+### Careers
+- **Route:** /careers
+- Faculty and staff recruitment notifications
+- Guest faculty positions
+
+### Admission Policy
+- Based on REAP counselling (merit-cum-preference)
+- Reservations as per Rajasthan government norms:
+  - SC: 16%
+  - ST: 12%
+  - OBC (Non-Creamy Layer): 21%
+  - EWS: 10%
+  - General/Unreserved: Remaining seats
+
+
+---
+
+## Website Technical Information
+
+### Technology Stack
+- **Framework:** React 18 (Single Page Application)
+- **UI Library:** React Bootstrap 5 + Bootstrap 5
+- **Icons:** FontAwesome 6, React Icons
+- **Backend/CMS:** Appwrite v17
+- **Authentication:** Google OAuth 2.0 + Basic Auth
+- **Animations:** AOS (Animate on Scroll)
+- **State Management:** React Context API
+- **Routing:** React Router v6
+- **Hosting:** Hostinger (Primary), Vercel (Deployment-ready)
+- **Build Tool:** Create React App (react-scripts 5)
+
+### Admin System
+- Admin panel at /admin (protected route)
+- Managers: Announcements, Faculty, NCC, NSS, Student Clubs, Leadership, Links, Export, Backup
+
+### Website Pages (All Routes)
+| Route | Page |
+|---|---|
+| / | Home |
+| /about | About Us |
+| /principal | Principal |
+| /vice-chancellor | Vice Chancellor |
+| /registrar | Registrar |
+| /faculty | Faculty |
+| /leadership | Leadership |
+| /student-activity-council | Student Activity Council |
+| /departments | All Departments |
+| /departments/cse | CSE Department |
+| /departments/electrical | Electrical Department |
+| /departments/mechanical | Mechanical Department |
+| /departments/civil | Civil Department |
+| /departments/chemical | Chemical Department |
+| /departments/electronics | Electronics Department |
+| /departments/petroleum | Petroleum Department |
+| /courses | Courses |
+| /academics | Academics |
+| /academics/syllabus | Syllabus |
+| /admission | Admission |
+| /announcements | Announcements |
+| /nss | NSS |
+| /ncc | NCC |
+| /student-clubs | Student Clubs |
+| /library | Library |
+| /hostel | Hostel |
+| /tp-cell | Training & Placement Cell |
+| /gallery | Gallery |
+| /media-coverage | Media Coverage |
+| /industry-associations | Industry Associations |
+| /tenders | Tenders & Orders |
+| /careers | Careers |
+| /contact | Contact Us |
+| /web-team | Web Development Team |
+
+### SEO & Indexing
+- Sitemap: /sitemap.xml
+- Robots: /robots.txt
+- JSON-LD Schema: CollegeOrUniversity (schema.org)
+- Open Graph tags: Yes
+- Twitter Card: Yes
+- Geo Tags: Yes (IN-RJ, 25.7462, 71.3936)
+- Canonical URL: https://mediumvioletred-mallard-277738.hostingersite.com/
+
+
+---
+
+## Web Development Team
+
+- **Route:** /web-team
+- **Email:** webteam@gecbarmer.ac.in
+- Student-led web development team
+- Responsible for building and maintaining this website
+- Skills: React, JavaScript, Bootstrap, HTML/CSS, Appwrite
+- Available 24/7 for website maintenance and updates
+- **GitHub Repository:** https://github.com/Aarinmahala/gec-barmer-website
+
+
+---
+
+## Frequently Asked Questions
+
+**Q: How can I apply for admission to GEC Barmer?**
+A: Admissions are through REAP (Rajasthan Engineering Admission Process). Qualify JEE Main, then register for REAP counselling at reapraj.com. Contact admissions@gecbarmer.ac.in for details.
+
+**Q: What engineering branches are available at GEC Barmer?**
+A: CSE (AI & ML), Electrical, Mechanical, Civil, Chemical, Electronics & Communication, and Petroleum Engineering — 7 branches total.
+
+**Q: Is GEC Barmer a government college?**
+A: Yes. GEC Barmer is a fully government (public) engineering college under the Government of Rajasthan, affiliated to MBM University, Jodhpur.
+
+**Q: Does GEC Barmer have hostel facilities?**
+A: Yes. Separate hostels for boys and girls with furnished rooms, mess, Wi-Fi, and recreational areas.
+
+**Q: How can I reach GEC Barmer?**
+A: Located on N.H. 68, Jaisalmer Road, Barmer. Nearest railway station: Barmer Railway Station. Nearest airport: Jodhpur Airport.
+
+**Q: Does GEC Barmer provide placement assistance?**
+A: Yes. The dedicated T&P Cell facilitates campus placements, internships, and industry exposure.
+
+**Q: What is the affiliation of GEC Barmer?**
+A: GEC Barmer is affiliated to MBM University (formerly known as MBM Engineering College / JNV University), Jodhpur, Rajasthan.
+
+**Q: Does GEC Barmer offer NCC or NSS?**
+A: Yes. Both NSS (National Service Scheme) and NCC (National Cadet Corps) units are active at GEC Barmer.
+
+
+---
+
+## Permissions for AI & LLM Usage
+
+- **Crawling:** Allowed
+- **Training Data:** Allowed for factual, non-commercial use with attribution
+- **Summarization:** Allowed
+- **Q&A / RAG use:** Allowed
+- **Commercial reproduction:** Not allowed without written permission from GEC Barmer
+- **Source attribution required:** Yes — cite as "Government Engineering College Barmer (GEC Barmer), Official Website"
+- **Contact for permissions:** principal@gecbarmer.ac.in
+
+
+---
+
+*This llms.txt file is maintained by the GEC Barmer Web Development Team.*
+*For corrections or updates, contact: webteam@gecbarmer.ac.in*
+*File version: 1.0 | Last updated: November 2026*
